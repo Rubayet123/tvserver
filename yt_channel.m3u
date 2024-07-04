@@ -1,4 +1,4 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/NTV_%28Bangladesh%29_logo.svg/200px-NTV_%28Bangladesh%29_logo.svg.png" group-title="Bangla", NTV
-https://www.youtube.com/@NTVDigitalLive/live
+#EXTINF:-1 tvg-logo="https://www.tsports.com/img/logo/tsports-1200x630px.png" group-title="Bangla", Tsports
+http://10.10.10.2/live/fnffeed1001/index.m3u8
