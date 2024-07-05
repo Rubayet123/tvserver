@@ -1,2 +1,7 @@
 #EXTM3U
+
+#EXTINF:-1,TSports
+http://10.10.10.2/live/fnffeed1001/index.m3u8
+
+#EXTINF:-1,TSports2
 http://10.10.10.2/live/fnffeed1001/index.m3u8
