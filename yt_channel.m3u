@@ -1,3 +1,7 @@
 #EXTM3U
+
 #EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD",Tsports
+http://10.10.10.2/live/fnffeed1001/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD",Tsports2
 http://10.10.10.2/live/fnffeed1001/index.m3u8
