@@ -13,14 +13,14 @@ https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
 https://ekusheyserver.com/etvlivesn.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://en.m.wikipedia.org/wiki/9XM#/media/File%3A9XMHindiMusicTelevisionChannelLogo.jpg" group-title="Music",9XM
+#EXTINF:-1 tvg-logo="https://en.m.wikipedia.org/wiki/9XM#/media/File%3A9XMHindiMusicTelevisionChannelLogo.jpg" group-title="Hindi Music",9XM
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8
-#EXTINF:-1 group-title="Music",Joo Music
+#EXTINF:-1 group-title="Hindi Music",Joo Music
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Hindi Music",Hindi Hits HD
 http://146.59.253.52:8080/hindihitshd/index.m3u8
-#EXTINF:-1 group-title="Hindi Music" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png",9XM
+#EXTINF:-1 group-title="Hindi Music" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png",9XM-2
 https://d75dqofg5kmfk.cloudfront.net/bpk-tv/9XM/default/index.m3u8
 #EXTINF:-1 group-title="Hindi Music" tvg-logo="https://rawcomthubusercontent.com/subirkumarpaul/Logo/main/9X%20Jalwa.png",9X Jalwa
 http://longstream-03.ajaah.com/PlayBoxTV/9XJalwa/playlist.m3u8
