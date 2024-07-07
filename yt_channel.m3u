@@ -3,17 +3,19 @@
 #EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD",Tsports
 http://10.10.10.2/live/fnffeed1001/index.m3u8
 
-#EXTINF:-1 tvg-id="AsianTV.bd",Asian TV (720p)
+#EXTINF:-1 tvg-id="AsianTV.bd" group-title="BD",Asian TV (720p)
 https://mtlivestream.site/asian/ytlive/index.m3u8
 
-#EXTINF:-1 tvg-id="ChannelS.bd",Channel S (1080p)
+#EXTINF:-1 tvg-id="ChannelS.bd" group-title="BD",Channel S (1080p)
 https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
 
-#EXTINF:-1 tvg-id="EkusheyTV.bd",Ekushey TV (480p)
+#EXTINF:-1 tvg-id="EkusheyTV.bd" group-title="BD",Ekushey TV (480p)
 https://ekusheyserver.com/etvlivesn.m3u8
 
 
-#EXTINF:-1 tvg-logo="https://en.m.wikipedia.org/wiki/9XM#/media/File%3A9XMHindiMusicTelevisionChannelLogo.jpg" group-title="Hindi Music",9XM
+
+
+#EXTINF:-1 group-title="Hindi Music",9XM
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8
 #EXTINF:-1 group-title="Hindi Music",Joo Music
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
