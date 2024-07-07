@@ -113,14 +113,10 @@ https://pull-cdnw.anystream.uk/live/cf46c8b0018c10009acded4c00000000/playlist.m3
 
 
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="Kolkata Bangla", Star Jalsha HD 
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="Indian Bangla", Star Jalsha HD 
 https://fsd3.short.gy/Star_jalsha.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Enter 10 Bangla
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kLTXHZwzmSJJh3W6bm_134dfLEh_vjEpjL8QE8Yn4l6cs=s160-c-k-c0x00ffffff-no-rj" group-title="Indian News",ABP Ananda
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377308/ei/fIuKZuK_FtfXsfIPmruTwA8/ip/20.66.112.7/id/grCkG2BO7xw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bAbl4E3hRUYSYXYN-WhnnrudpRfxmw9u0ChTBwkk3wo7fW_XYq8YzoiArNjw/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgBKjP26iPkQm4yNf0wiJNrfZ4P9Dtai-mmXz0bswzJxICIBPr3rqsbPDIwrhGQDOfRkZxgXwS8a9xitRSz3le2N_Y/file/index.m3u8
-#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k_0j90OAP3tEuBLbhr8eMPB7Dgu-xgLi3xFzG2KH0OtLKX=s176-c-k-c0x00ffffff-no-rj" group-title="Indian News",ABP NEWS
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377308/ei/fIuKZqP3M8jtsfIPmKi_iA4/ip/20.66.112.7/id/IVTtmOgIxOw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51166970/txs/51166969%2C51166970%2C51166971%2C51166972/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bAQXvTNxNuqGAHi6JBQcGgKVHhfLp-OFB5Adi_PE3qEwu2_AeY2v3EhDEElY/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgGV85SFyIllYeyBwLWUjQWBpGO5M7zZCxGzw-5GwskhgCIQCbI4NJdFAo6eO4arA83M4UKPqVgJPLa_GtXrrVySu-Xw%3D%3D/file/index.m3u8
 
 
 
@@ -139,9 +135,9 @@ https://varun-iptv.netlify.app/m3u/discoverybengali.m3u8
 https://varun-iptv.netlify.app/m3u/discoveryhindi.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Infotainment Channels" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20.png", Discovery HD
 https://varun-iptv.netlify.app/m3u/discoveryenglish.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20.png" group-title="Informative",Discovery HD Multi Audio
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Discovery%20.png" group-title="Infotainment Channels",Discovery HD Multi Audio
 https://raw.githubusercontent.com/subirkumarpaul/My-iptv/main/Discovery.m3u8
-#EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/18095/logo/240x240/mobile_logo_452964001673178334.png" group-title="Informative",Investigation Discovery Multi Audio
+#EXTINF:-1 tvg-logo="https://images.toffeelive.com/images/program/18095/logo/240x240/mobile_logo_452964001673178334.png" group-title="Infotainment Channels",Investigation Discovery Multi Audio
 https://od.lk/s/ODRfNzIxOTE5Njdf/Investigation_Discovery.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Infotainment Channels" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/TLC.png", TLC (L*)
 https://code.vthanhtivi.pw/getlink/eazie/243126/playlist.m3u8
@@ -185,7 +181,7 @@ https://varun-iptv.netlify.app/m3u/Food%20Network.m3u8
 https://od.lk/s/ODRfNzIxOTE5NThf/Food_Network.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",Food Food
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/foodfood/master.m3u8?ads.rnd=__CmBanglaavel__&ads.env_i=__env.i_
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/FunctionError/Logos/main/Pirates-Tv.png" group-title="Informative",Wild Earth
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/FunctionError/Logos/main/Pirates-Tv.png" group-title="Infotainment Channels",Wild Earth
 https://wildearth-roku.amagi.tv/masterR720P.m3u8
 
 
@@ -276,4 +272,9 @@ https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377305/ei/e
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377306/ei/eouKZoWuDc3YsfIPwpGCyAE/ip/20.66.112.7/id/tZT2MCYu6Zw.7/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bARohHrwVtzgtC_TDYJyLJjhbR8CIC_GWrwOL_xRs63PjqIFoRcRTUAuAZks/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgKMTG1HGabupOe4vFuGK7TkuxgzXxmjuYQXAyXtlq82UCIQDL8xqOXmybp-TPvX39KuQRGQoB_YVwGAaJ-nv-SUnLuw%3D%3D/file/index.m3u8
 #EXTINF:-1 tvg-logo="https://yt3.ggpht.com/ytc/AKedOLQbVFfYfijJ0VrwhRpN02LYgy8GGK2PGE-4wBZzOw=s48-c-k-c0x00ffffff-no-rj" group-title="International News",CNA
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377306/ei/eouKZpnwLaexsfIP_KOquAE/ip/20.66.112.7/id/XWq5kBlakcQ.6/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bAVSWZcshjZ0AqnvOpeLF7XgTNohICx1U5ViMTg6EnMYOcNF2JqRdMI4gdKM/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAPFR6PoYnF2r3_0Axz72msJ0dTXlrJGHf4zz-TDD5OJPAiEA3Ht__nOrsqGMIQyDlc-uaUPAYi4t5sY6hyo2KAlZVvc%3D/file/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_kLTXHZwzmSJJh3W6bm_134dfLEh_vjEpjL8QE8Yn4l6cs=s160-c-k-c0x00ffffff-no-rj" group-title="Indian News",ABP Ananda
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377308/ei/fIuKZuK_FtfXsfIPmruTwA8/ip/20.66.112.7/id/grCkG2BO7xw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bAbl4E3hRUYSYXYN-WhnnrudpRfxmw9u0ChTBwkk3wo7fW_XYq8YzoiArNjw/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgBKjP26iPkQm4yNf0wiJNrfZ4P9Dtai-mmXz0bswzJxICIBPr3rqsbPDIwrhGQDOfRkZxgXwS8a9xitRSz3le2N_Y/file/index.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_k_0j90OAP3tEuBLbhr8eMPB7Dgu-xgLi3xFzG2KH0OtLKX=s176-c-k-c0x00ffffff-no-rj" group-title="Indian News",ABP NEWS
+https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720377308/ei/fIuKZqP3M8jtsfIPmKi_iA4/ip/20.66.112.7/id/IVTtmOgIxOw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51166970/txs/51166969%2C51166970%2C51166971%2C51166972/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bAQXvTNxNuqGAHi6JBQcGgKVHhfLp-OFB5Adi_PE3qEwu2_AeY2v3EhDEElY/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgGV85SFyIllYeyBwLWUjQWBpGO5M7zZCxGzw-5GwskhgCIQCbI4NJdFAo6eO4arA83M4UKPqVgJPLa_GtXrrVySu-Xw%3D%3D/file/index.m3u8
 
