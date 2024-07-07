@@ -1,14 +1,12 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD",Tsports
+#EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD",Tsports (BDIX)
 http://10.10.10.2/live/fnffeed1001/index.m3u8
 
 #EXTINF:-1 tvg-id="AsianTV.bd" group-title="BD",Asian TV (720p)
 https://mtlivestream.site/asian/ytlive/index.m3u8
-
 #EXTINF:-1 tvg-id="ChannelS.bd" group-title="BD",Channel S (1080p)
 https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
-
 #EXTINF:-1 tvg-id="EkusheyTV.bd" group-title="BD",Ekushey TV (480p)
 https://ekusheyserver.com/etvlivesn.m3u8
 
@@ -18,11 +16,11 @@ https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Music Bangla" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lYbTbvSwnfhpFV8qVUtpksrKJlthZTLi0ap9H_fcznABI=s176-c-k-c0x00ffffff-no-rj" tvg-id="", RTV Music
 https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1720210729/ei/yQCIZo_ONZqglu8P966eKA/ip/172.183.132.82/id/odlbQybCUwc.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/51181298/txs/51181296%2C51181297%2C51181298/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/NO7bAdBisP8QojVB1-dmxb_f7CUsVkBE0J3JF4maKiaRi0HgWdz_VINfPcFR1k8/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/keepalive/yes/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAMZLjd2_XPbz9ZUEZKmeguwJNlyEltZYMzYMPIkUUx8hAiEAisME_26KEk3M_bKmfp_nHg1ih5ArZ6EUdTNzuK5RWCU%3D/file/index.m3u8
 
+
 #EXTINF:-1 group-title="Music Hindi",9XM
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8
 #EXTINF:-1 group-title="Music Hindi",Joo Music
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
-
 #EXTINF:-1 group-title="Music Hindi",Hindi Hits HD
 http://146.59.253.52:8080/hindihitshd/index.m3u8
 #EXTINF:-1 group-title="Music Hindi" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png",9XM-2
@@ -42,6 +40,7 @@ https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Musicindia/default/index.m3u8
 https://bdix.proximitybd.xyz/lanka.php?id=live-01&e.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2durMYUg2FHuS2javIhuAAYEQ0sjjc1Ib5Q&usqp=CAU" group-title="Cricket 🏏",LPL 2024 T Sports Live2
 https://bdix.proximitybd.xyz/lanka.php?id=live-02&e.m3u8
+
 
 #EXTINF:-1 tvg-logo="https://edge01.iptv.digijadoo.net/static/t_sports.png" group-title="Cricket 🏏", T Sports HD
 https://homeip.biz/GaziTV/index.m3u8
@@ -71,6 +70,7 @@ https://node3.olelive.com:6443/live/CCTV5HD_360/hls.m3u8
 http://145.239.5.177:8080/538/index.m3u8
 
 
+
 #EXTINF:-1 tvg-logo="" group-title="Islamic Channel" tvg-logo="https://i.ibb.co/VjGgqcc/images-2024-03-02-T220831-913.jpg",ISLAM Bangla
 https://pull-cdnw.anystream.uk/live/cf46c8b0018c10009acded4c00000000/playlist.m3u8
 
@@ -78,8 +78,6 @@ https://pull-cdnw.anystream.uk/live/cf46c8b0018c10009acded4c00000000/playlist.m3
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="Infotainment Channels", Star Jalsha HD 
 https://fsd3.short.gy/Star_jalsha.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Infotainment Channels", Zee Cinema 
-https://dai.google.com/ssai/event/XUmyfp_MQk2H_cTDIvz6aA/master.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Infotainment Channels", Xplore TV 📶 
 https://xlpore-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://11plus.live/img/dis.png" group-title="Infotainment Channels",Discovery_Bangla
@@ -138,8 +136,15 @@ https://od.lk/s/ODRfNzIxOTE5NThf/Food_Network.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/foodfood/master.m3u8?ads.rnd=__CmBanglaavel__&ads.env_i=__env.i_
 
 
+
+
 #EXTINF:-1 tvg-logo="" group-title="Entertainment",DMAX
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
+
+
+#EXTINF:-1 tvg-logo="" group-title="Movie", Zee Cinema 
+https://dai.google.com/ssai/event/XUmyfp_MQk2H_cTDIvz6aA/master.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="" group-title="News International", FOX News (AU) 🛜
