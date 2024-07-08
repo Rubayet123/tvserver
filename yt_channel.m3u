@@ -130,8 +130,12 @@ https://pull-cdnw.anystream.uk/live/cf46c8b0018c10009acded4c00000000/playlist.m3
 
 
 
+
+
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="Indian Bangla", Star Jalsha HD 
 https://fsd3.short.gy/Star_jalsha.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vNOe5sq.png" group-title="Indian Bangla", Colors Bangla HD
+https://entezeetv.fun/bdcast/hls/cdn_jio.m3u8?id=48182484f45eed3c745a6607b8313537b4649f2fed36da8f093dc46bcc9591bb
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Enter 10 Bangla
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 
@@ -200,11 +204,13 @@ https://od.lk/s/ODRfNzIxOTE5NThf/Food_Network.m3u8
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/foodfood/master.m3u8?ads.rnd=__CmBanglaavel__&ads.env_i=__env.i_
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/FunctionError/Logos/main/Pirates-Tv.png" group-title="Infotainment Channels",Wild Earth
 https://wildearth-roku.amagi.tv/masterR720P.m3u8
-
 #EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",Discovery HGTV
 https://nowmetv.net/delta/discovery/api/HGTV.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",Discovery TRVL
 https://nowmetv.net/delta/discovery/api/TRVL_Channel.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/h1Ofnon.png" group-title="Infotainment Channels",Epic
+https://epiconvh.s.llnwi.net/epic/master.m3u8
+
 
 
 #EXTINF:-1 tvg-logo="" group-title="Entertainment",DMAX
@@ -212,13 +218,22 @@ https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
 
 
 
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Indian Channel",Sony TV
+https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0ab6c92270adc04f106e0248931440da9cd90d18a5a2ba780f9f46f6ad044b2c6dd970bf7aff1edc6616daf8ac526f601ea4ff4ca94031a9720a67b4c1765542541a2fee86c4a50e888411b25f78566cf65ec635826c52cb55cdd61851883f089c52e91ee01932d18f7911cf1e6e5e408610832503bfab8bed3dcd722a3276e90cad57ef76498b027e6a287d9ca3c8391ae61a9bcf6936d2557a04b52330ef1422824545c3fe9ee33542cef3906edaf4f1ad14c33ed9ef04cee36d1ff7f82931c69dc5b59d2dfda80ce93592cd99ca97584396b363a61c36981067630792c1c57136d3d9d7f90ae7e8c2e7cd8c3505a7d1bebe3726502a231cbea3d9394b9fd067f68e3544a6a640915caf020d2f8322a610e0ae5d5433089846d02465f6b61cd148ee9964d16cc871ab10d2f88ec303efc51709d5fdbd0baa68c455f90a1bb2ae8&token=
+#EXTINF:-1 tvg-logo="https://i.imgur.com/LBICKI5.png" group-title="Indian Channel",Sony Max
+https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0abc95bdcb7651c8e5bf5c813432c8d8adc7a28a11b2ec1e3d50220b920c5535bd964993d46f8bf48c95073d740c43663b95995d07549f5ae1e58fac4a0da4ad97ea6bb856487e5bd6f45bd92e062848a2fa06b34de47a4d4884409d12826a3ab155f73dac8cee80dfcdc50d32f5768ca300303a0059552c999f9f633ee75380c654ba4fcfbebd9e45d851ec982b9f8ffe9d9bd8196bfd0b6933c3952fa223b86c82528581664a13bf05ba5d9f9b4bec68f9bd30dacc5ca193c42d13ece00676e4922cacd4f276486d9fb4e4c977521369155d6019f3e90f59b68c37ca865271593d4444bf73d80be58531365dc765de9dbabd9d7118850ad31571eb270dcb39512e2904b36b7dca3978ac6690c1286f21f2c178e3ed01b4a1e3ec075f4aa5e95e68a3223d3571af56ec7d980e66dd9b1c39c079f4cdc4844ad625d7c3efebe5cd8&token=
+
+
+
+
 #EXTINF:-1 tvg-logo="" group-title="Movies", Zee Cinema 
 https://dai.google.com/ssai/event/XUmyfp_MQk2H_cTDIvz6aA/master.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
 http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
-
-
-
+#EXTINF:-1 tvg-logo="" group-title="Movies", RDC
+https://janya-rdcmovies.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/230a723f-867d-4fa3-b2d2-a622ba994cd2/main.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hollywood-desi/playlist.m3u8
 
 
 
