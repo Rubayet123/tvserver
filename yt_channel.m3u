@@ -61,7 +61,8 @@ https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Sangeetbangla/default/index.m3u8
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 group-title="Music International", MTV Adria
 http://37.18.239.36:8888/MTV_Adria/index.m3u8
-
+#EXTINF:-1 tvg-logo="" group-title="Music International",Trance Urban
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-urban/encrypted.m3u8
 
 
 
@@ -73,7 +74,8 @@ https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-
 https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/FunctionError/Logos/main/Pirates-Tv.png" group-title="Kids",Sony Kal
 https://spt-sonykal-1-us.lg.wurl.tv/playlist.m3u8
-
+#EXTINF:-1 tvg-logo="" group-title="Kids",BBC Creebs
+https://edge01.iptv.digijadoo.net/live/cbeebies_asia/playlist.m3u8?md5=E9h7LjJQrfZM6FDv4TuZkA&expires=1720645051&user=c15be118d93a464dabf77260596012cf
 
 
 
@@ -210,6 +212,17 @@ https://nowmetv.net/delta/discovery/api/HGTV.m3u8
 https://nowmetv.net/delta/discovery/api/TRVL_Channel.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/h1Ofnon.png" group-title="Infotainment Channels",Epic
 https://epiconvh.s.llnwi.net/epic/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/KeIhwNP.png" group-title="Infotainment Channels",TED
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/ted/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",True History
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/true-history/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",Documentary+
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/documentary/master.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",Discovery Life
+https://beecdn.wadim77289.workers.dev/Discovery_Channel_Live_TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Infotainment Channels",NDTV Good Life
+https://livegeoroueu.akamaized.net/120723/smil:ndtvgoodtimes1.smil/playlist.m3u8?hdnts=st=1720429852~exp=1720433452~acl=!*/120723/smil:ndtvgoodtimes1.smil/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~hmac=99d25090e4aa3a23d2010945ec32720877a5a61212c8539a9fbf6b261cf285d5&ads.app_bundle=&ads.app_store_url=&ads.content_livestream=1&ads.language=ENG&ads.content_genre=Life&ads.channel=205&ads.channel_name=NDTVGoodTimes&ads.network_name=yupptv&ads.user=1
+
 
 
 
@@ -234,6 +247,14 @@ http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
 https://janya-rdcmovies.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/230a723f-867d-4fa3-b2d2-a622ba994cd2/main.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hollywood-desi/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO 2
+https://beecdn.wadim77289.workers.dev/HBO_2_Live_TV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movies",KMovies
+https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WOyfzjC.png" group-title="Movies",&Flix
+https://edge4-moblive.yuppcdn.net/transsd/smil:nflix.smil/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/WOyfzjC.png" group-title="Movies",Hallmark
+https://frndlymsl.akamaized.net/hls/live/2006424/hallmarkmsl/hallmarkmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07
 
 
 
