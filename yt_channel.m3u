@@ -48,8 +48,6 @@ https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Mtvbeats/default/index.m3u8
 https://live-e24.dailyhunt.in/eternowsa/live/amlst:E24_,b256,b512,b1024,b1824,.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/ai9gpjy.png" group-title="Music",Dhoom
 https://entezeetv.fun/bdcast/hls/cdn_jio.m3u8?id=59f2a70d74d8576de5db6273cb90837faa1d6d30c01f895647567f969241aeb5
-#EXTINF:-1 tvg-logo="" group-title="Music",Kappatv
-https://yuppftalive.akamaized.net/080823/kappatv/playlist.m3u8?hdnts=st=1720424921~exp=1720428521~acl=!*/080823/kappatv/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~hmac=6fe7ab05ba30a22548d9ab4a9dfdbea978b04c7f7ecea8ca2e441d9b0c676bd4&ads.app_bundle=&ads.app_store_url=&ads.content_livestream=1&ads.language=MAL&ads.content_genre=MUS&ads.channel=6419&ads.channel_name=KappaTV&ads.network_name=yupptv&ads.user=1
 #EXTINF:-1 tvg-logo="https://i.imgur.com/b1B73Tp.png" group-title="Music",Sangeet Bangla
 https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Sangeetbangla/default/index.m3u8
 
@@ -231,30 +229,47 @@ https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Indian Channel",Sony TV
-https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0ab6c92270adc04f106e0248931440da9cd90d18a5a2ba780f9f46f6ad044b2c6dd970bf7aff1edc6616daf8ac526f601ea4ff4ca94031a9720a67b4c1765542541a2fee86c4a50e888411b25f78566cf65ec635826c52cb55cdd61851883f089c52e91ee01932d18f7911cf1e6e5e408610832503bfab8bed3dcd722a3276e90cad57ef76498b027e6a287d9ca3c8391ae61a9bcf6936d2557a04b52330ef1422824545c3fe9ee33542cef3906edaf4f1ad14c33ed9ef04cee36d1ff7f82931c69dc5b59d2dfda80ce93592cd99ca97584396b363a61c36981067630792c1c57136d3d9d7f90ae7e8c2e7cd8c3505a7d1bebe3726502a231cbea3d9394b9fd067f68e3544a6a640915caf020d2f8322a610e0ae5d5433089846d02465f6b61cd148ee9964d16cc871ab10d2f88ec303efc51709d5fdbd0baa68c455f90a1bb2ae8&token=
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/512px-Sony_Channel_Logo.png" group-title="Indian Channel",Sony TV HD
+https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0ab6c92270adc04f106e0248931440da9cd90d18a5a2ba780f9f46f6ad044b2c6dd7576ebfe6b593a0e526ba69554b8f5efe946bf062af411e881338211744d587a0701c5d3d7c8df0820727604eb377e3fcec446aa2e047babfab1b6874e3f65104037eb784b4508f87041dba1e6d7c29d178f294a675ea5432f45148b8e4bd75c82899e2583d7be6a3b74725b379a68e5f40329f4c6979383fbb84f4eb43e5f8325b92ef0a2f53a793d88aabb62737e1bbf10ca3ca21b7412bce78b52b0c9724323c222511a2c72d1041cfc9ddb1da02713b40c24c87f90d8048fcc71e0fcdc354ab928cd6a772ff6bc3ed38f14e2c6b4068ea4805775182963c24f7df885a3d154e94831c568585e6af28fb569382c5c08904a69fc09e3c677405568b25d323724f3da73109ca517ffd3b9067bab2731376c845888a9e76708674b7d9e36b989&token=
 #EXTINF:-1 tvg-logo="https://i.imgur.com/LBICKI5.png" group-title="Indian Channel",Sony Max
-https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0abc95bdcb7651c8e5bf5c813432c8d8adc7a28a11b2ec1e3d50220b920c5535bd964993d46f8bf48c95073d740c43663b95995d07549f5ae1e58fac4a0da4ad97ea6bb856487e5bd6f45bd92e062848a2fa06b34de47a4d4884409d12826a3ab155f73dac8cee80dfcdc50d32f5768ca300303a0059552c999f9f633ee75380c654ba4fcfbebd9e45d851ec982b9f8ffe9d9bd8196bfd0b6933c3952fa223b86c82528581664a13bf05ba5d9f9b4bec68f9bd30dacc5ca193c42d13ece00676e4922cacd4f276486d9fb4e4c977521369155d6019f3e90f59b68c37ca865271593d4444bf73d80be58531365dc765de9dbabd9d7118850ad31571eb270dcb39512e2904b36b7dca3978ac6690c1286f21f2c178e3ed01b4a1e3ec075f4aa5e95e68a3223d3571af56ec7d980e66dd9b1c39c079f4cdc4844ad625d7c3efebe5cd8&token=
+https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0abfca1ddf37722a315b435b48a998df4f77e826260932a806abaddd3037dd99d714186d4112f908c5975687cd24a9972fd11e5395ac1f158317605a1f1a4206096b4f679ffdabaa74220889434638c2f618c1cc737a417ec2f46a1313b1cca5a56396bc8357d26120c01e0c4ecfd62e7ee7fb376148b464a5ffe2bddaaed62d773093dcb4832c4ed3d03993ed20530864853f7215811765385a9ec8580ad561351c250bc1972b49db4b0ccdc538573f8bf84cef804d979762a5162db71fbf6eb2b8c44205e6b9c0818a5806181bf6222614363c21a6e33cbecae283383c9e848e31e1821085810b5f871ca0761888dfabccdbdc1f8bfe536fd4cd766dceaaee833ea1e07a0998565f7d2ba31b0f9f1a112a11d04767231ef029579e7d65951dfb55e3edbcd5ec237a9715b9328ae3b5459f53498bf85a60e9605691cf271130652&token=
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/f4/Sony_Sab_new.png/512px-Sony_Sab_new.png" group-title="Indian Channel",Sony Sab
+https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a6232c2bd9ef71ce5a574a4955f0c2e6fb0ab2dacc2c073e5694629bd090bc5ea3bd65c7433516a60755becd770782ea0e2c9f9ea17dbabc6263ea9cac9b670f9c86a8105494e80ee47835678d9780134763814308ffa8d25d3fe2a24b6a3ec9cb1b1b571fee339eda3472d5815997272acc5040451bdc62ba2864e4b0078dc51fc331603341084112c606aace293b134830e7c84081b21f3959c50490656a887a71de822047e8cde4ef2f2aba0b32adfb1b329d6a14c4b009a3a8cedfbad08f25d163d131157ea77696590144a8df03eb5a5490e3dae4248788217342380b2f8ca682fc7c389d238923e204b1e2bfc7703f141291bcfdbbbad21be8df660a8c956dfcfa606f2193700a94948b35c729485d283f03028fca13d2fb91327c1400822494f5b0bad388cd85cbc82287d273e6e8b2833b7afc63a93c82797854a4039b507ed635e868736932071971e29da061854&token=
+#EXTINF:-1 tvg-logo="" group-title="Indian Channel",Colors HD
+https://mhdtvweb.com/jc/stream.m3u8?chunks=Vkh3ekJWRi9LRlV0U0Z0RFdXSmJCMVZVTHhJSEIzRkVQMDVUWER3bERFTlNDMnRBQWxwZUYzcGVLMGRTTUFCYlZTVkNURlY2UEVaakJRcEVWd0FyUTIwRUNYQnFCMVF6TUZoYmRXRmlHa1JvVkNNUEIwMEtkZ1FGSGtBRkRIZGZZaUJnVXpkaUN5SjZaQ01BYWlSVlJHNFlXZ3grZGlnQmFnVmJSMWRaVVF4NmNBWkNmM1JVVVFCbU1GNWFUMUlGZjIwQ1VTdHdja2NFWXlnSEtTTUVCQT09
+#EXTINF:-1 tvg-logo="" group-title="Indian Channel",MTV HD
+https://mhdtvweb.com/jc/stream.m3u8?chunks=Vkh3ekJWRi9LRlV0U0Z0RFdXSmJCMVZVTHhJSEIzRkVQMDVUWER3bERFTlNDMnRBQWxwZUYzcGVLMGRTTUFCYlZTVkNURlY2UEVabVlXRmdiUU1KZkcwRkkwWldieXNGTldSYmNYUUZPRjlUZmgwTVAyTjlRQ29IVjJNd0RnQndZeU1MWkFGL1pCdHVBMVJoWVFvSVdsSTFZMGhUQTEwRmZYTlVUWHRsV0ZWWFdRSU1mV01DVnl4MUkwWmNXQTVjYTI1ZFhDdGdlZ0VyWFNkQkt5RU1UWHhXWndFPQ
 
 
 
 
-#EXTINF:-1 tvg-logo="" group-title="Movies", Zee Cinema 
+
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/uYjCv5p.png" group-title="Movies", Zee Cinema 
 https://dai.google.com/ssai/event/XUmyfp_MQk2H_cTDIvz6aA/master.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
 http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Movies", RDC
-https://janya-rdcmovies.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/230a723f-867d-4fa3-b2d2-a622ba994cd2/main.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hollywood-desi/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO 2
-https://beecdn.wadim77289.workers.dev/HBO_2_Live_TV/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies",KMovies
 https://bd281c27a16f4a7fb4a88260378e8082.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_NewMovies/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/WOyfzjC.png" group-title="Movies",&Flix
 https://edge4-moblive.yuppcdn.net/transsd/smil:nflix.smil/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WOyfzjC.png" group-title="Movies",Hallmark
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Hallmark_Channel.svg/512px-Hallmark_Channel.svg.png" group-title="Movies",Hallmark
 https://frndlymsl.akamaized.net/hls/live/2006424/hallmarkmsl/hallmarkmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07
+#EXTINF:-1 tvg-logo="" group-title="Movies",Movies
+https://shls-live-ak.akamaized.net/out/v1/90143f040feb40589d18c57863d9e829/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GPRGA9C.png" group-title="Movies",Hallmark Movies & Mysteries
+https://frndlymsl.akamaized.net/hls/live/2006424/hallmarkmmsl/hallmarkmmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07
+#EXTINF:-1 tvg-logo="https://i.imgur.com/GPRGA9C.png" group-title="Movies",Hallmark Movies & More
+https://d3l10ju7ii2sha.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-301fj9dsme11n/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/21/Hallmark_Drama_Logo.png" group-title="Movies",Hallmark Drama
+https://frndlymsl.akamaized.net/hls/live/2006424/hallmarkdmsl/hallmarkdmsl/playlist.m3u8?hdnts=st=1606053234~exp=3216054041~acl=*~hmac=208d261d9f98d76a5ac30aa2ce51751f88ee50cfc24812b7cbea8b0397489a07
+#EXTINF:-1 tvg-logo="" group-title="Movies",Hollywood Action Movies
+https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
+
+
 
 
 
