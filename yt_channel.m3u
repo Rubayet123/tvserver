@@ -23,16 +23,15 @@ https://ythls-v3.onrender.com/channel/UCxHoBXkY88Tb8z1Ssj6CWsQ.m3u8
 
 
 
-#MUSIC
-#EXTINF:-1 group-title="Music",9XM
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png" group-title="Music",9XM
 https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/index.m3u8
-#EXTINF:-1 group-title="Music",Joo Music
+#EXTINF:-1 group-title="Music" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png",9XM-2
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/9XM/default/index.m3u8
+#EXTINF:-1 tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-07/15d058ad837ee3e6d5cfe2651b11aa49.png" group-title="Music",Joo Music
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
 #EXTINF:-1 group-title="Music",Hindi Hits HD
 http://146.59.253.52:8080/hindihitshd/index.m3u8
-#EXTINF:-1 group-title="Music" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png",9XM-2
-https://d75dqofg5kmfk.cloudfront.net/bpk-tv/9XM/default/index.m3u8
-#EXTINF:-1 group-title="Music",Mastii Music
+#EXTINF:-1 group-title="Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/b3389339bd16854406ac7233c5c5501a.png",Mastii Music
 https://cdn-singapore-5160-prod.tsv2.amagi.tv/linear/amg01448-samsungin-mastiiin-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Music",Bollywood Hungama
 https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/bollywoodhungama_live_https/master.m3u8
@@ -81,7 +80,6 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192069
 
 
 
-# MUSIC International
 #EXTINF:-1 group-title="Music International" tvg-id="AfrobeatTVEntertainment.uk", Afrobeats (1080p)
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 group-title="Music International", MTV Adria
@@ -100,7 +98,6 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/71067
 
 
 
-#KIDS
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Cartoon%20Network.png" group-title="Kids",Cartoon Network
 https://amg01448-samsungin-cartoonnw-samsungin-1y8kz.amagi.tv/playlist/amg01448-samsungin-cartoonnw-samsungin/cb553d1e786c648b93d43d63d5ef41a4d3246ad3032e90703dff06c231901d468ca2f9d3f537b63619d714af3f5e2f0e0433db18dd6511b6802eea0e6d287f09cfcceb2ada861317b3c60e383ebb281700ab0941d8380220dcec5759d438b0340446b00a230f338fbe51aa7e55978808821d57b189e5a4fd04706ded294fdfd20ffda8bd0c118d2ff9932372a75e26c7199604e6368ff19702cf69b66cc1168caa08baf212e7868bfa2a50c24d1bb2ccf90b774fb3833797c9936876b879294d1f6fb8c9cbfc4a7292524159fafadfbe37b04a80d165c94c3eb5158014a53e8e79a500a3a11ff3e4fbfe4c452babcd5f590aa5e1a98ba87a62f337b5f39bbd091c93944c2a5fa8718f3a353705d56f1c4b0b9a90d86276/82/640x360_1284800/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/FunctionError/Logos/main/Pirates-Tv.png" group-title="Kids",Zoo Moo
@@ -257,7 +254,6 @@ https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
 
 
 
-#NEWS International
 #EXTINF:-1 tvg-logo="" group-title="News International", FOX News (AU) 🛜
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist720p.m3u8
 #EXTINF:-1 tvg-logo="" group-title="News International", RT News (EN) 🛜
@@ -286,7 +282,10 @@ https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
 
-# Movie
+
+
+
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
 http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
@@ -322,7 +321,6 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/49561
 
 
 
-# Indian Bangla
 #EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="Indian Bangla", Star Jalsha HD 
 https://fsd3.short.gy/Star_jalsha.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vNOe5sq.png" group-title="Indian Bangla", Colors Bangla HD
@@ -332,7 +330,8 @@ https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3
 
 
 
-#Indian Channel
+
+
 #EXTINF:-1 tvg-id="" tvg-name="IN: Sony (Set India)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2daad44a19ed90aa9e2a090fa3f91aa1.png" group-title="India ➾ Movie",IN: Sony (Set India)
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/281867
 #EXTINF:-1 tvg-id="" tvg-name="IN: Sony Aath" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/76be466f6b2faa53cdae4ebf0ed727ec.png" group-title="India ➾ Movie",IN: Sony Aath
@@ -502,7 +501,6 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1353
 
 
 
-#Pakistani Channel
 #EXTINF:-1 tvg-id="" tvg-name="PK: 24 News" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/2784e698b08c700d015e45f9451139d3.png" group-title="Pakistan",PK: 24 News
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1403
 #EXTINF:-1 tvg-id="" tvg-name="PK: 8XM" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/e6f3b2e8848c942ed7b6922458ac526c.png" group-title="Pakistan",PK: 8XM
