@@ -72,7 +72,8 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192145
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/267131
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zoom" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/568f50fca8c93f5f54d6ba044d570687.png" group-title="Music",IN: Zoom
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192069
-
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Hitz" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-04/5774bfe45b62e9aea0bd4bf4d4c9694f.jpg" group-title="Music",IN: B4U Hitz
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/286926
 
 
 
@@ -330,7 +331,10 @@ https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3
 
 
 
-
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bollywood Prime" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Bollywood Prime
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/300626
+#EXTINF:-1 tvg-id="" tvg-name="IN: TLC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/f9b1051e20be415e918b595016f74d6e.svg" group-title="India",IN: TLC
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/301647
 
 #EXTINF:-1 tvg-id="" tvg-name="IN: Sony (Set India)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2daad44a19ed90aa9e2a090fa3f91aa1.png" group-title="India ➾ Movie",IN: Sony (Set India)
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/281867
@@ -713,6 +717,18 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/151863
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16633
 #EXTINF:-1 tvg-id="" tvg-name="PK: A Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/36b1e05b6eb2eb6025d277c5cd42bdbd.png" group-title="India ➾ Sports",PK: A Sports
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/295025
+
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/8ba2d41f5a186346b45808c1373f8c52.png" group-title="India ➾ Documentary",IN: Discovery Channel
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/295292
+#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Kids" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/249c454173fa6205144acb92a8e5c25e.png" group-title="India ➾ Kids",IN: Discovery Kids
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82683
+#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Science" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/901b40ebf06e7a9fe401a3ad17c37aa0.png" group-title="India ➾ Documentary",IN: Discovery Science
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1363
+#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery World" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d7a1751bd2247bb32e1afe8d63f34727.png" group-title="India ➾ Documentary",IN: Discovery World
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/73792
+#EXTINF:-1 tvg-id="" tvg-name="IN: History" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/739c04cbf20c52a3ae050fe52ee723ef.png" group-title="India ➾ Documentary",IN: History
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82604
 
 
 
