@@ -241,7 +241,7 @@ https://mhdtvweb.com/sonyliv/chunklist.m3u8?load=b9d34e92f7f06d618791206c8f4a623
 
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/uYjCv5p.png" group-title="Movies", Zee Cinema 
-https://dai.google.com/ssai/event/XUmyfp_MQk2H_cTDIvz6aA/master.m3u8
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1350
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
 http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
