@@ -67,15 +67,13 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193068
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193647
 #EXTINF:-1 tvg-id="" tvg-name="IN: Music India" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7d95816cfe587520ba64ac4a3621423f.png" group-title="Music",IN: Music India
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1358
-#EXTINF:-1 tvg-id="" tvg-name="IN: Only Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c87d538bad46e799f4cdcb7ae24dec2c.jpg" group-title="India",IN: Only Music
+#EXTINF:-1 tvg-id="" tvg-name="IN: Only Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c87d538bad46e799f4cdcb7ae24dec2c.jpg" group-title="Music",IN: Only Music
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/264726
 #EXTINF:-1 tvg-id="" tvg-name="IN: Public Music" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/fee40d38d1cbd513bdf6964dffa1f6b4.png" group-title="Music",IN: Public Music
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192145
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Music Co" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/1a04bfd70f2d8d09bef61d76bc30f639.png" group-title="India",IN: Zee Music Co
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Music Co" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-08/1a04bfd70f2d8d09bef61d76bc30f639.png" group-title="Music",IN: Zee Music Co
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/267131
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zing" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c1c3e486da01a79183e793d9f2102215.png" group-title="India",IN: Zing
-http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1347
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zoom" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/568f50fca8c93f5f54d6ba044d570687.png" group-title="India",IN: Zoom
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zoom" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/568f50fca8c93f5f54d6ba044d570687.png" group-title="Music",IN: Zoom
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192069
 
 
@@ -312,6 +310,9 @@ https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playli
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/51876
 #EXTINF:-1 tvg-id="" tvg-name="IN: Sony Pix" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/148794467c949eb960c3369577370edd.png" group-title="Movies",IN: Sony Pix
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/49539
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Café" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/ec7ea3a8510b9c3e2d63d314aae01977.png" group-title="Movies",IN: Zee Café
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/49561
+
 
 
 
@@ -418,8 +419,6 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193009
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1351
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zee Business" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9bcddf38e1547fadf65c31172b86f21b.png" group-title="India",IN: Zee Business
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16984
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Café" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/ec7ea3a8510b9c3e2d63d314aae01977.png" group-title="India",IN: Zee Café
-http://iptvtree.net:8080/romaniamedia/8cc105f9f2/49561
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zee Cinema Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/085bf305157db5fde8b5efdf9e67c0eb.png" group-title="India ➾ Movie",IN: Zee Cinema Asia
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1350
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zee Classic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e4acdd893054d8789ed77d59a275d298.png" group-title="India ➾ Movie",IN: Zee Classic
@@ -446,6 +445,8 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16957
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1348
 #EXTINF:-1 tvg-id="" tvg-name="IN: Zee World" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/355170886aae937e99453a9e20caf655.png" group-title="India ➾ Movie",IN: Zee World
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/172264
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zing" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c1c3e486da01a79183e793d9f2102215.png" group-title="India",IN: Zing
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1347
 
 
 #EXTINF:-1 tvg-id="" tvg-name="IN: & pictures" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a1f81b40485819fec3ef445eb88d0557.png" group-title="India ➾ Movie",IN: & pictures
