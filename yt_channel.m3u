@@ -711,8 +711,16 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1375
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1374
 
 
-
-
+#EXTINF:-1 tvg-id="" tvg-name="IN: Ten Cricket" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/f89c11d0bc8b653f20ba4b37ba95d7c4.png" group-title="India ➾ Sports",IN: Ten Cricket
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/302356
+#EXTINF:-1 tvg-id="" tvg-name="IN: Willow" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/b8b56a633aad6900e1565ed87811f342.png" group-title="India ➾ Sports",IN: Willow
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/165776
+#EXTINF:-1 tvg-id="" tvg-name="PK: Ten Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/08e18c0bf31fe58fccc4040f4467b062.png" group-title="India ➾ Sports",PK: Ten Sports
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/151863
+#EXTINF:-1 tvg-id="" tvg-name="PK: PTV Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-07/7990c9248d459185d9b92ea4665bad06.png" group-title="India ➾ Sports",PK: PTV Sports
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16633
+#EXTINF:-1 tvg-id="" tvg-name="PK: A Sports" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/36b1e05b6eb2eb6025d277c5cd42bdbd.png" group-title="India ➾ Sports",PK: A Sports
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/295025
 
 
 
