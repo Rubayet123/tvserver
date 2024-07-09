@@ -280,6 +280,9 @@ https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica.m3u8?token=QLdYNC6WDTa-MtwLf
 
 
 
+#EXTINF:-1 tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="Movies",BBC America
+https://v3.thetvapp.to/hls/BBCAmericaEast.m3u8?token=QC-TPVWZP6kiuLHPnMWoLw&expires=1720550279
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
 http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
