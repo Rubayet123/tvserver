@@ -285,6 +285,19 @@ https://lnc-baywatch.tubi.video/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="Movies",BBC America
 https://v3.thetvapp.to/hls/BBCAmericaEast.m3u8?token=QC-TPVWZP6kiuLHPnMWoLw&expires=1720550279
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO2 East
+https://v2.thetvapp.to/hls/HBO2East.m3u8?token=S0-GjdKCZChInDSC-CUw-A&expires=1720550699
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO East
+https://v3.thetvapp.to/hls/HBOEast.m3u8?token=pE8PX8Nk0GxuWJVU3XEozw&expires=1720550826
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Comedy HD
+https://v3.thetvapp.to/hls/HBOComedyEast.m3u8?token=9sD-P3dxKRIUrKIRWAgyRQ&expires=1720550774
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Family East
+https://v3.thetvapp.to/hls/HBOFamilyEast.m3u8?token=DVfKz1ERSAyXECFHpS0KSA&expires=1720550882
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Signature
+https://v4.thetvapp.to/hls/HBOSignatureEast.m3u8?token=s5I2PXvBl_5jQWrHZ28wig&expires=1720550916
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Zone HD
+https://v4.thetvapp.to/hls/HBOZoneEast.m3u8?token=pD30AYruE35Wfeq8_p-T6w&expires=1720550940
+
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
 http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
