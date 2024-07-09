@@ -240,11 +240,6 @@ https://livegeoroueu.akamaized.net/120723/smil:ndtvgoodtimes1.smil/playlist.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="" group-title="Entertainment",DMAX
-https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
-
-
-
 
 
 #EXTINF:-1 tvg-logo="" group-title="News International", FOX News (AU) 🛜
@@ -277,6 +272,14 @@ https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica.m3u8?token=QLdYNC6WDTa-MtwLf
 
 
 
+
+
+#EXTINF:-1 tvg-logo="" group-title="Entertainment",DMAX
+https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png" group-title="Movies",Comedy Central
+https://v1.thetvapp.to/hls/ComedyCentralEast.m3u8?token=xFpMoUUHjJHupS5LjObAIw&expires=1720550426
+#EXTINF:-1 tvg-logo="" group-title="Entertainment",Baywatch
+https://lnc-baywatch.tubi.video/playlist.m3u8
 
 
 
