@@ -345,28 +345,28 @@ https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Bollywood Prime" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India",IN: Bollywood Prime
-http://iptvtree.net:8080/romaniamedia/8cc105f9f2/300626
-#EXTINF:-1 tvg-id="" tvg-name="IN: TLC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/f9b1051e20be415e918b595016f74d6e.svg" group-title="India",IN: TLC
-http://iptvtree.net:8080/romaniamedia/8cc105f9f2/301647
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony (Set India)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2daad44a19ed90aa9e2a090fa3f91aa1.png" group-title="India ➾ Movie",IN: Sony (Set India)
+
+
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bollywood Prime" tvg-logo="http://s3.i3ns.net:2052/cs/etc/blank-icon.png" group-title="India ➾ Channel",IN: Bollywood Prime
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/300626
+#EXTINF:-1 tvg-id="" tvg-name="IN: TLC" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-01/f9b1051e20be415e918b595016f74d6e.svg" group-title="India ➾ Channel",IN: TLC
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/301647
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony (Set India)" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2daad44a19ed90aa9e2a090fa3f91aa1.png" group-title="India ➾ Channel",IN: Sony (Set India)
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/281867
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Aath" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/76be466f6b2faa53cdae4ebf0ed727ec.png" group-title="India ➾ Movie",IN: Sony Aath
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Aath" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/76be466f6b2faa53cdae4ebf0ed727ec.png" group-title="India ➾ Channel",IN: Sony Aath
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/17005
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony BBC Earth" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2923e17c63e1e3a6a95152d4ebc66b38.png" group-title="India",IN: Sony BBC Earth
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony BBC Earth" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/2923e17c63e1e3a6a95152d4ebc66b38.png" group-title="India ➾ Channel",IN: Sony BBC Earth
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192995
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/ccf43231ee77cbb648bf30a46aa67d2b.png" group-title="India ➾ Movie",IN: Sony Marathi
-http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193097
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="India",IN: Sony Max
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max" tvg-logo="http://s3.i3ns.net/cs/etc/blank-icon.png" group-title="India ➾ Channel",IN: Sony Max
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/303614
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d4975f023a98c9cebea516a4fd98482c.png" group-title="India ➾ Movie",IN: Sony Max 2
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d4975f023a98c9cebea516a4fd98482c.png" group-title="India ➾ Channel",IN: Sony Max 2
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/4862
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max India +1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/e83c6de7486ee10da2030a409923428b.png" group-title="India ➾ Movie",IN: Sony Max India +1
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Max India +1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/e83c6de7486ee10da2030a409923428b.png" group-title="India ➾ Channel",IN: Sony Max India +1
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1359
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Pal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/f0733abb9bd97980d7b9118cb0c01419.png" group-title="India ➾ Movie",IN: Sony Pal
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Pal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/f0733abb9bd97980d7b9118cb0c01419.png" group-title="India ➾ Channel",IN: Sony Pal
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193645
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony SAB" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d12a683a9883989c1528fa718dd63775.png" group-title="India ➾ Movie",IN: Sony SAB
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony SAB" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d12a683a9883989c1528fa718dd63775.png" group-title="India ➾ Channel",IN: Sony SAB
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1073
 #EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f7ec94d2b4c2e3b83bda0bae7c00ebc6.png" group-title="India ➾ Sports",IN: Sony Sports Ten 1
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16622
@@ -374,28 +374,28 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16622
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16621
 #EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 3" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/aeb289d5fd8b53e456a0f84e884a97ed.jpg" group-title="India ➾ Sports",IN: Sony Sports Ten 3
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/56191
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 5" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/784a40b1a8222a8f30ec469a1b0c0220.png" group-title="India",IN: Sony Sports Ten 5
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Sports Ten 5" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/784a40b1a8222a8f30ec469a1b0c0220.png" group-title="India ➾ Channel",IN: Sony Sports Ten 5
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/301072
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony TV Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/0c02c389fbb51238d2b2352837ebe4cd.png" group-title="India ➾ Movie",IN: Sony TV Asia
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony TV Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-03/0c02c389fbb51238d2b2352837ebe4cd.png" group-title="India ➾ Channel",IN: Sony TV Asia
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/4867
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Wah" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/30d1081aa39520113f25151752ed6040.png" group-title="India ➾ Movie",IN: Sony Wah
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Wah" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/30d1081aa39520113f25151752ed6040.png" group-title="India ➾ Channel",IN: Sony Wah
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/165801
-#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Yay!" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2c50667949c8e4b2fbfa9d65dd550d7f.png" group-title="India",IN: Sony Yay!
+#EXTINF:-1 tvg-id="" tvg-name="IN: Sony Yay!" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/2c50667949c8e4b2fbfa9d65dd550d7f.png" group-title="India ➾ Channel",IN: Sony Yay!
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1355
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Bharat" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/7fbcc6b2ef6f2a7b6879fd5c4f1fea93.png" group-title="India ➾ Movie",IN: Star Bharat
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Bharat" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/7fbcc6b2ef6f2a7b6879fd5c4f1fea93.png" group-title="India ➾ Channel",IN: Star Bharat
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/284583
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e24f29dada0a4a69bd8ad11788801df2.png" group-title="India ➾ Movie",IN: Star Gold
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e24f29dada0a4a69bd8ad11788801df2.png" group-title="India ➾ Channel",IN: Star Gold
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1070
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/39e4ba0feeb32d7265b5d927f3b7c668.png" group-title="India ➾ Movie",IN: Star Gold 2
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/39e4ba0feeb32d7265b5d927f3b7c668.png" group-title="India ➾ Channel",IN: Star Gold 2
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/43919
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold Select" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/30af3c510bcfdb3845c56a67a1c3bd61.png" group-title="India ➾ Movie",IN: Star Gold Select
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Gold Select" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/30af3c510bcfdb3845c56a67a1c3bd61.png" group-title="India ➾ Channel",IN: Star Gold Select
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/297547
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Jalsha" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/48fa95424d644ec81854b1a89085ee7c.jpg" group-title="India ➾ Movie",IN: Star Jalsha
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Jalsha" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/48fa95424d644ec81854b1a89085ee7c.jpg" group-title="India ➾ Channel",IN: Star Jalsha
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/12979
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Maa Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/22ea7346e31774969f5c338e4bb68bf5.png" group-title="India ➾ Movie",IN: Star Maa Movies
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Maa Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/22ea7346e31774969f5c338e4bb68bf5.png" group-title="India ➾ Channel",IN: Star Maa Movies
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82624
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/21b51dfaef0b2ddf2a74e44b62289f40.png" group-title="India ➾ Movie",IN: Star Plus
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/21b51dfaef0b2ddf2a74e44b62289f40.png" group-title="India ➾ Channel",IN: Star Plus
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16091
 #EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports 1" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/67b5b20cb871eb0a1d91bedb8be826ff.png" group-title="India ➾ Sports",IN: Star Sports 1
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/3630
@@ -407,107 +407,110 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/62584
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82628
 #EXTINF:-1 tvg-id="" tvg-name="IN: Star Sports Select 2" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/c82b1ed84b02cbae99a2a741355dd041.png" group-title="India ➾ Sports",IN: Star Sports Select 2
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16619
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Suvarna" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/de3b24188bd2fb46dc5f854b902aa810.png" group-title="India ➾ Movie",IN: Star Suvarna
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Suvarna" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/de3b24188bd2fb46dc5f854b902aa810.png" group-title="India ➾ Channel",IN: Star Suvarna
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193147
-#EXTINF:-1 tvg-id="" tvg-name="IN: Star Vijay" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/5d985f020baf77d62ddf39806d5dde60.png" group-title="India ➾ Movie",IN: Star Vijay
+#EXTINF:-1 tvg-id="" tvg-name="IN: Star Vijay" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-11/5d985f020baf77d62ddf39806d5dde60.png" group-title="India ➾ Channel",IN: Star Vijay
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/19744
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee 24 Kalak" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8df915e2607e4ae07918bc72a56f1d3f.png" group-title="India",IN: Zee 24 Kalak
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee 24 Kalak" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8df915e2607e4ae07918bc72a56f1d3f.png" group-title="India ➾ Channel",IN: Zee 24 Kalak
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/45484
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Action" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7d9f57621c8113935568dabc68bb5d88.png" group-title="India ➾ Movie",IN: Zee Action
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Action" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7d9f57621c8113935568dabc68bb5d88.png" group-title="India ➾ Channel",IN: Zee Action
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1353
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Aflam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/19d2a5a384842cc228caa404f74c8b82.png" group-title="India",IN: Zee Aflam
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Aflam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-05/19d2a5a384842cc228caa404f74c8b82.png" group-title="India ➾ Channel",IN: Zee Aflam
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/22067
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Alwan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-06/5051ee33fcc917e09eeae4861db9c858.png" group-title="India ➾ Movie",IN: Zee Alwan
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Alwan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2024-06/5051ee33fcc917e09eeae4861db9c858.png" group-title="India ➾ Channel",IN: Zee Alwan
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/304493
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Anmol Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c5fee6bbc5e1c2292220e23c6e6d780f.png" group-title="India",IN: Zee Anmol Cinema
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Anmol Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c5fee6bbc5e1c2292220e23c6e6d780f.png" group-title="India ➾ Channel",IN: Zee Anmol Cinema
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/19467
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/59b90d720e4e84324ae1cc0b511a34e7.png" group-title="India ➾ Movie",IN: Zee Bangla
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/59b90d720e4e84324ae1cc0b511a34e7.png" group-title="India ➾ Channel",IN: Zee Bangla
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/145632
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1a22ad3bdf83c44cc513c8ff2490fdd9.png" group-title="India",IN: Zee Bangla Cinema
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bangla Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/1a22ad3bdf83c44cc513c8ff2490fdd9.png" group-title="India ➾ Channel",IN: Zee Bangla Cinema
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/21658
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Biskope" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7233d1c55fa2743287fdb526f9a771a8.png" group-title="India",IN: Zee Biskope
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Biskope" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7233d1c55fa2743287fdb526f9a771a8.png" group-title="India ➾ Channel",IN: Zee Biskope
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193009
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bollywood" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e6c48a8c46101a99e4a41418aaeb70aa.png" group-title="India",IN: Zee Bollywood
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Bollywood" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e6c48a8c46101a99e4a41418aaeb70aa.png" group-title="India ➾ Channel",IN: Zee Bollywood
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1351
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Business" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9bcddf38e1547fadf65c31172b86f21b.png" group-title="India",IN: Zee Business
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Business" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9bcddf38e1547fadf65c31172b86f21b.png" group-title="India ➾ Channel",IN: Zee Business
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16984
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Cinema Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/085bf305157db5fde8b5efdf9e67c0eb.png" group-title="India ➾ Movie",IN: Zee Cinema Asia
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Cinema Asia" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/085bf305157db5fde8b5efdf9e67c0eb.png" group-title="India ➾ Channel",IN: Zee Cinema Asia
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1350
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Classic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e4acdd893054d8789ed77d59a275d298.png" group-title="India ➾ Movie",IN: Zee Classic
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Classic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e4acdd893054d8789ed77d59a275d298.png" group-title="India ➾ Channel",IN: Zee Classic
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/21578
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Hindustan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e76a9bdf41d34fde4f1b8221efc355b4.png" group-title="India",IN: Zee Hindustan
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Hindustan" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/e76a9bdf41d34fde4f1b8221efc355b4.png" group-title="India ➾ Channel",IN: Zee Hindustan
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/145633
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9b9b9240cc9786677a699ca48209b819.png" group-title="India ➾ Movie",IN: Zee Kannada
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/9b9b9240cc9786677a699ca48209b819.png" group-title="India ➾ Channel",IN: Zee Kannada
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/145631
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Magic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-11/709e1d79bcd8632bdb143d4559dad3c5.png" group-title="India ➾ Movie",IN: Zee Magic
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Magic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-11/709e1d79bcd8632bdb143d4559dad3c5.png" group-title="India ➾ Channel",IN: Zee Magic
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/281920
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4e2afbdf7bca28dd91216f35336c75ef.png" group-title="India ➾ Movie",IN: Zee Marathi
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/4e2afbdf7bca28dd91216f35336c75ef.png" group-title="India ➾ Channel",IN: Zee Marathi
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82646
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Picchar" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cf5fce71f2c61324a8f9516e43c0f3dc.png" group-title="India ➾ Movie",IN: Zee Picchar
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Picchar" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/cf5fce71f2c61324a8f9516e43c0f3dc.png" group-title="India ➾ Channel",IN: Zee Picchar
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192201
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjab Haryana Himachal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/5455b817db810f3e0fc883dd4a92de19.svg" group-title="India",IN: Zee Punjab Haryana Himachal
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjab Haryana Himachal" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-09/5455b817db810f3e0fc883dd4a92de19.svg" group-title="India ➾ Channel",IN: Zee Punjab Haryana Himachal
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/299924
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjabi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f1a9bd21bb7f80d985fbb194e5a0c4b2.png" group-title="India ➾ Movie",IN: Zee Punjabi
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Punjabi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/f1a9bd21bb7f80d985fbb194e5a0c4b2.png" group-title="India ➾ Channel",IN: Zee Punjabi
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/145630
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Salaam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-10/1a9cb37d67ed921b22f8c47a0e045038.svg" group-title="India",IN: Zee Salaam
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Salaam" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-10/1a9cb37d67ed921b22f8c47a0e045038.svg" group-title="India ➾ Channel",IN: Zee Salaam
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16981
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Talkies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7a65529546647b12b26bebc2ce020e6d.png" group-title="India",IN: Zee Talkies
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Talkies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7a65529546647b12b26bebc2ce020e6d.png" group-title="India ➾ Channel",IN: Zee Talkies
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16957
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/806194dec889d62b53a395771f889bf8.png" group-title="India ➾ Movie",IN: Zee TV
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/806194dec889d62b53a395771f889bf8.png" group-title="India ➾ Channel",IN: Zee TV
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1348
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee World" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/355170886aae937e99453a9e20caf655.png" group-title="India ➾ Movie",IN: Zee World
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee World" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-02/355170886aae937e99453a9e20caf655.png" group-title="India ➾ Channel",IN: Zee World
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/172264
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zing" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c1c3e486da01a79183e793d9f2102215.png" group-title="India",IN: Zing
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zing" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c1c3e486da01a79183e793d9f2102215.png" group-title="India ➾ Channel",IN: Zing
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1347
 
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: & pictures" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a1f81b40485819fec3ef445eb88d0557.png" group-title="India ➾ Movie",IN: & pictures
+#EXTINF:-1 tvg-id="" tvg-name="IN: & pictures" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/a1f81b40485819fec3ef445eb88d0557.png" group-title="India ➾ Channel",IN: & pictures
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16958
-#EXTINF:-1 tvg-id="" tvg-name="IN: & TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6892a0ecf005c94f596ff86d2956689e.png" group-title="India ➾ Movie",IN: & TV
+#EXTINF:-1 tvg-id="" tvg-name="IN: & TV" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/6892a0ecf005c94f596ff86d2956689e.png" group-title="India ➾ Channel",IN: & TV
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/16964
-#EXTINF:-1 tvg-id="" tvg-name="IN: & Xplor" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/18036e4bd3ddc3c3db52b1130ef78451.png" group-title="India ➾ Movie",IN: & Xplor
+#EXTINF:-1 tvg-id="" tvg-name="IN: & Xplor" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/18036e4bd3ddc3c3db52b1130ef78451.png" group-title="India ➾ Channel",IN: & Xplor
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/196116
 
-#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/91625361b83e16f929b69d33fb9e52d5.png" group-title="India ➾ Movie",IN: B4U Movies
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/91625361b83e16f929b69d33fb9e52d5.png" group-title="India ➾ Channel",IN: B4U Movies
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1369
-#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c7a7a719272833e9c9c605b35c6c6c5d.png" group-title="India ➾ Movie",IN: B4U Plus
+#EXTINF:-1 tvg-id="" tvg-name="IN: B4U Plus" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/c7a7a719272833e9c9c605b35c6c6c5d.png" group-title="India ➾ Channel",IN: B4U Plus
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1367
-#EXTINF:-1 tvg-id="" tvg-name="IN: Bhojpuri Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/9d0c0d68ce86162f94862b8ed9d0b533.png" group-title="India ➾ Movie",IN: Bhojpuri Cinema
+#EXTINF:-1 tvg-id="" tvg-name="IN: Bhojpuri Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/9d0c0d68ce86162f94862b8ed9d0b533.png" group-title="India ➾ Channel",IN: Bhojpuri Cinema
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193007
-#EXTINF:-1 tvg-id="" tvg-name="IN: Big Magic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/033d5b2035f8a221a263600badd4a9b5.png" group-title="India ➾ Movie",IN: Big Magic
+#EXTINF:-1 tvg-id="" tvg-name="IN: Big Magic" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/033d5b2035f8a221a263600badd4a9b5.png" group-title="India ➾ Channel",IN: Big Magic
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/49548
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3b706945ff908d5911a0be1eafffb46f.png" group-title="India ➾ Movie",IN: Colors
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/3b706945ff908d5911a0be1eafffb46f.png" group-title="India ➾ Channel",IN: Colors
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1366
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/3065653535cdfa318a8185d152607846.png" group-title="India ➾ Movie",IN: Colors Cineplex
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/3065653535cdfa318a8185d152607846.png" group-title="India ➾ Channel",IN: Colors Cineplex
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/19741
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex Bollywood" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/a02b489d0f1f2f3f6e2dae8afb82e9f5.png" group-title="India ➾ Movie",IN: Colors Cineplex Bollywood
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Cineplex Bollywood" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2022-05/a02b489d0f1f2f3f6e2dae8afb82e9f5.png" group-title="India ➾ Channel",IN: Colors Cineplex Bollywood
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/49550
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Gujarati" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/77c35a2586cb05de8134d259139e67a1.png" group-title="India ➾ Movie",IN: Colors Gujarati
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Gujarati" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/77c35a2586cb05de8134d259139e67a1.png" group-title="India ➾ Channel",IN: Colors Gujarati
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/145645
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/783cbfb3051d12d7992f82ae4f7c91fa.png" group-title="India ➾ Movie",IN: Colors Kannada
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Kannada" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/783cbfb3051d12d7992f82ae4f7c91fa.png" group-title="India ➾ Channel",IN: Colors Kannada
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/192203
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/744bdecf60935c49e1fac6c0feabcc6e.png" group-title="India ➾ Movie",IN: Colors Marathi
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Marathi" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/744bdecf60935c49e1fac6c0feabcc6e.png" group-title="India ➾ Channel",IN: Colors Marathi
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82642
-#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Rishtey" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/57698714035590a5681e1ddf715be5f9.png" group-title="India ➾ Movie",IN: Colors Rishtey
-#EXTINF:-1 tvg-id="" tvg-name="IN: Dabangg" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8b2e82fcc2cd0febeaaa1878b8d8d20c.png" group-title="India ➾ Movie",IN: Dabangg
+#EXTINF:-1 tvg-id="" tvg-name="IN: Colors Rishtey" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/57698714035590a5681e1ddf715be5f9.png" group-title="India ➾ Channel",IN: Colors Rishtey
+#EXTINF:-1 tvg-id="" tvg-name="IN: Dabangg" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/8b2e82fcc2cd0febeaaa1878b8d8d20c.png" group-title="India ➾ Channel",IN: Dabangg
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/165800
-#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/84adffd962d7f13f987d21b2a197600e.png" group-title="India ➾ Movie",IN: ETV Cinema
+#EXTINF:-1 tvg-id="" tvg-name="IN: ETV Cinema" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-11/84adffd962d7f13f987d21b2a197600e.png" group-title="India ➾ Channel",IN: ETV Cinema
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193198
-#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/20eb1b856dcb42d4ab6fe53ffe66d399.png" group-title="India ➾ Movie",IN: Gemini
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/20eb1b856dcb42d4ab6fe53ffe66d399.png" group-title="India ➾ Channel",IN: Gemini
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/165794
-#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Comedy" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/500f78e5e4d1ff8d19a5ccce912f6383.png" group-title="India ➾ Movie",IN: Gemini Comedy
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Comedy" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/500f78e5e4d1ff8d19a5ccce912f6383.png" group-title="India ➾ Channel",IN: Gemini Comedy
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/264710
-#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/35607ed908e3e3c442d6eb7715ceebf0.png" group-title="India ➾ Movie",IN: Gemini Movies
+#EXTINF:-1 tvg-id="" tvg-name="IN: Gemini Movies" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-02/35607ed908e3e3c442d6eb7715ceebf0.png" group-title="India ➾ Channel",IN: Gemini Movies
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/297557
-#EXTINF:-1 tvg-id="" tvg-name="IN: Movies Now" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/69bb66af12863716385b18e213052d11.png" group-title="India ➾ Movie",IN: Movies Now
+#EXTINF:-1 tvg-id="" tvg-name="IN: Movies Now" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/69bb66af12863716385b18e213052d11.png" group-title="India ➾ Channel",IN: Movies Now
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/169118
-#EXTINF:-1 tvg-id="" tvg-name="IN: We" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/4cf6af925ca70e6b3603d5968826dd04.jpg" group-title="India ➾ Movie",IN: We
+#EXTINF:-1 tvg-id="" tvg-name="IN: We" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-12/4cf6af925ca70e6b3603d5968826dd04.jpg" group-title="India ➾ Channel",IN: We
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/193159
-#EXTINF:-1 tvg-id="" tvg-name="IN: Wow Cinema One" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5957304ab7dd4176e7772174fe06f1ab.png" group-title="India ➾ Movie",IN: Wow Cinema One
+#EXTINF:-1 tvg-id="" tvg-name="IN: Wow Cinema One" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/5957304ab7dd4176e7772174fe06f1ab.png" group-title="India ➾ Channel",IN: Wow Cinema One
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/197945
-#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Action" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7d9f57621c8113935568dabc68bb5d88.png" group-title="India ➾ Movie",IN: Zee Action
+#EXTINF:-1 tvg-id="" tvg-name="IN: Zee Action" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/7d9f57621c8113935568dabc68bb5d88.png" group-title="India ➾ Channel",IN: Zee Action
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1353
+#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Kids" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/249c454173fa6205144acb92a8e5c25e.png" group-title="India ➾ Channel",IN: Discovery Kids
+http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82683
+
 
 
 
@@ -735,8 +738,6 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/295025
 
 #EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Channel" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/8ba2d41f5a186346b45808c1373f8c52.png" group-title="India ➾ Documentary",IN: Discovery Channel
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/295292
-#EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Kids" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/249c454173fa6205144acb92a8e5c25e.png" group-title="India ➾ Kids",IN: Discovery Kids
-http://iptvtree.net:8080/romaniamedia/8cc105f9f2/82683
 #EXTINF:-1 tvg-id="" tvg-name="IN: Discovery Science" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-09/901b40ebf06e7a9fe401a3ad17c37aa0.png" group-title="India ➾ Documentary",IN: Discovery Science
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/1363
 #EXTINF:-1 tvg-id="" tvg-name="IN: Discovery World" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2023-05/d7a1751bd2247bb32e1afe8d63f34727.png" group-title="India ➾ Documentary",IN: Discovery World
