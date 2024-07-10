@@ -266,8 +266,9 @@ https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/6e1cc6d25ec0480ea099a5399d73bc4b/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="News International" tvg-logo="https://cdn.hqth.me/logo/thumbs/218.png", CNN International Europe 🌏
 https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="News International" tvg-logo="https://logowik.com/content/uploads/images/bbc-world-news6618.jpg", BBC World
-https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica.m3u8?token=QLdYNC6WDTa-MtwLf_kiSg&expires=1720549682
+#EXTINF:-1 tvg-logo="" group-title="News International" tvg-logo="https://i.imgur.com/REuN9RR.png" group-title="News",BBC News (North America) (1080p)
+https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
+
 
 
 
@@ -282,21 +283,6 @@ https://v1.thetvapp.to/hls/ComedyCentralEast.m3u8?token=xFpMoUUHjJHupS5LjObAIw&e
 https://lnc-baywatch.tubi.video/playlist.m3u8
 
 
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/pTiiPz0.png" group-title="Movies",BBC America
-https://v3.thetvapp.to/hls/BBCAmericaEast.m3u8?token=QC-TPVWZP6kiuLHPnMWoLw&expires=1720550279
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO2 East
-https://v2.thetvapp.to/hls/HBO2East.m3u8?token=S0-GjdKCZChInDSC-CUw-A&expires=1720550699
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO East
-https://v3.thetvapp.to/hls/HBOEast.m3u8?token=pE8PX8Nk0GxuWJVU3XEozw&expires=1720550826
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Comedy HD
-https://v3.thetvapp.to/hls/HBOComedyEast.m3u8?token=9sD-P3dxKRIUrKIRWAgyRQ&expires=1720550774
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Family East
-https://v3.thetvapp.to/hls/HBOFamilyEast.m3u8?token=DVfKz1ERSAyXECFHpS0KSA&expires=1720550882
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Signature
-https://v4.thetvapp.to/hls/HBOSignatureEast.m3u8?token=s5I2PXvBl_5jQWrHZ28wig&expires=1720550916
-#EXTINF:-1 tvg-logo="" group-title="Movies",HBO Zone HD
-https://v4.thetvapp.to/hls/HBOZoneEast.m3u8?token=pD30AYruE35Wfeq8_p-T6w&expires=1720550940
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
