@@ -87,9 +87,10 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60a26a056
 https://srv3.zcast.com.br/wellington7720/wellington7720/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Music International",NogoumFMTV (Egypt) 
 https://nogoumtv.nrpstream.com/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Music International",OneFM (Lebanon) 
+#EXTINF:-1 tvg-logo="" group-title="Music International",OneTV (Lebanon) 
 https://live.3cd.io/v1/broadcast/one/playlist.m3u8
-
+#EXTINF:-1 tvg-logo="" group-title="Music International",Cantina TV (Venezuela)
+https://vcp.myplaytv.com/cantinatv/cantinatv/playlist.m3u8
 
 
 
