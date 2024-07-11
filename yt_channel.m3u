@@ -73,8 +73,8 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/286926
 
 
 
-
-
+#EXTINF:-1 tvg-logo="" group-title="Music International",MTV Biggest Pop (USA)
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=db3aa987-9f35-4664-b523-5fe34623b36c
 #EXTINF:-1 group-title="Music International" tvg-id="AfrobeatTVEntertainment.uk", Afrobeats (1080p)
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Music International",Trance Urban
@@ -93,8 +93,8 @@ https://live.3cd.io/v1/broadcast/one/playlist.m3u8
 https://vcp.myplaytv.com/cantinatv/cantinatv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Music International",California Music Channel
 https://cmc-ono.amagi.tv/playlist.m3u8
-
-
+#EXTINF:-1 tvg-logo="" group-title="Music International",CMT Music
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5f68f53eb1e5800007390bf8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c280712-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=bd328c28-b23b-4f85-9b18-9d73786f7109
 
 
 
@@ -286,6 +286,8 @@ https://d2vnbkvjbims7j.cloudfront.net/containerA/LTN/playlist.m3u8
 https://raw.githubusercontent.com/mimipipi22/lalajo/main/dmax.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Entertainment",Baywatch
 https://lnc-baywatch.tubi.video/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Entertainment",MBC (USA)
+https://dacastmmd.mmdlive.lldns.net/dacastmmd/1c94dc9f1c08487a97995571800b9667/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png" group-title="Entertainment",Comedy Central
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca671f215a62078d2ec0abf/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c282e20-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c8883a8b-3441-4f7d-a15e-3a8365fbcaef
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png" group-title="Entertainment",Comedy Central
