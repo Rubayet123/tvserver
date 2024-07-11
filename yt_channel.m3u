@@ -152,10 +152,10 @@ http://145.239.5.177:8080/538/index.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="" group-title="Islamic Channel" tvg-logo="https://i.ibb.co/VjGgqcc/images-2024-03-02-T220831-913.jpg",ISLAM Bangla
+#EXTINF:-1 group-title="Islamic Channel" tvg-logo="https://i.ibb.co/VjGgqcc/images-2024-03-02-T220831-913.jpg",ISLAM Bangla
 https://pull-cdnw.anystream.uk/live/cf46c8b0018c10009acded4c00000000/playlist.m3u8
-
-
+#EXTINF:- group-title="Islamic Channel" tvg-logo="",Al Quran Al Kareem TV
+https://ythls.armelin.one/channel/UCos52azQNBgW63_9uDJoPDA.m3u8
 
 
 
@@ -292,6 +292,10 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5
 #EXTINF:-1 tvg-logo="" group-title="Entertainment",RedBox Comedy
 https://comedy-redbox.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="" group-title="Entertainment",MTV Cribs (Germany)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ea815a515d149000748ee9b/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ea815a515d149000748ee9b&deviceLat=51.2993&deviceLon=9.4910&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=8&terminate=false&userId=
+#EXTINF:-1 tvg-logo="" group-title="Entertainment",MTV Pluto TV (Germany)
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5caf325764025859afdd6c4d/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=1&deviceId=5caf325764025859afdd6c4d&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=DE&serverSideAds=false&sid=1b711cc8-0587-11eb-9df2-0242ac110002&terminate=false&userId=
 
 
 
@@ -316,6 +320,8 @@ https://frndlymsl.akamaized.net/hls/live/2006424/hallmarkdmsl/hallmarkdmsl/playl
 https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies",Rakuten Comedy Movies
 https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movies",HBO 2
+https://fl5.moveonjoy.com/HBO_2/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="IN: Romedy Now" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d115158efb755812fac0d25e96bec925.png" group-title="Movies",IN: Romedy Now
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/51876
