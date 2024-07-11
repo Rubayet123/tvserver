@@ -332,6 +332,10 @@ https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playli
 https://rakuten-comedymovies-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies",HBO 2
 https://fl5.moveonjoy.com/HBO_2/index.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Movies",Rotana Cinema KSA
+https://bcovlive-a.akamaihd.net/9527a892aeaf43019fd9eeb77ad1516e/eu-central-1/6057955906001/playlist.m3u8
+
+
 
 #EXTINF:-1 tvg-id="" tvg-name="IN: Romedy Now" tvg-logo="http://s3.i3ns.net:2052/portal/picon/2021-06/d115158efb755812fac0d25e96bec925.png" group-title="Movies",IN: Romedy Now
 http://iptvtree.net:8080/romaniamedia/8cc105f9f2/51876
