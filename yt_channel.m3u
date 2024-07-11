@@ -73,6 +73,7 @@ http://iptvtree.net:8080/romaniamedia/8cc105f9f2/286926
 
 
 
+
 #EXTINF:-1 tvg-logo="" group-title="Music International",MTV Biggest Pop (USA)
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fd1a252d35decbc4080c/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e7-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=db3aa987-9f35-4664-b523-5fe34623b36c
 #EXTINF:-1 group-title="Music International" tvg-id="AfrobeatTVEntertainment.uk", Afrobeats (1080p)
@@ -109,7 +110,16 @@ http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5da0d83f66c9700009b96d0e/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2ce913-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=b9489829-fa99-492b-9890-e85a4a467854
 #EXTINF:-1 tvg-logo="" group-title="Music International",MTV Yo!
 https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d14fc31252d35decbc4080b/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2d3737-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=32448355-0e6b-41d6-91ca-4bad8ef8310d
-
+#EXTINF:-1 tvg-logo="" group-title="Music International",Now Rock
+https://lightning-now90s-samsungnz.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Music International",PMC (UAE)
+https://hls.pmchd.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Music International",PMC Royale (UAE)
+https://rohls.pmc.live/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Music International",Kral Pop (Turkey)
+https://dogus-live.daioncdn.net/kralpoptv/playlist.m3u8
+#EXTINF:-1 tvg-logo="" group-title="Music International",Pop World TV
+https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
 
 
 
