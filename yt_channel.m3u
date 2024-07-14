@@ -9,9 +9,12 @@ http://tv.basnetbd.com:8080/roarzone/bk/1/tracks-v1a1/mono.m3u8?token=80bea6caba
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hWo7Ba4.png" group-title="BD",Sony Ten1 (BDIX)
 http://tv.basnetbd.com:8080/roarzone/bk/20/tracks-v1a1/mono.m3u8?token=8618e51f1f390ad7c248c7ee7f22651d8f95066d-761c81a2209f8baa0a97cd61b83d7b78-1720984698-1720963098
 #EXTINF:-1 tvg-logo="https://i.imgur.com/W96KVqu.png" group-title="BD",Sony Ten2 (BDIX)
-http://tv.basnetbd.com:8080/roarzone/bk/21/preview.mp4?token=052f6af2a63bdc6db48f4580c760648544bb3ef8-9a0ca131a9eeb31578333fad173e657f-1720985626-1720964026
+http://tv.basnetbd.com:8080/roarzone/bk/21/tracks-v1a1/mono.m3u8?token=cd834ab8876a4011db336a9a49d13ac7e10044b5-564a8be824cfafa3b3a95ee730157c37-1721000531-1720978931
 #EXTINF:-1 tvg-logo="https://i.imgur.com/vG19HxD.png" group-title="BD",Sony Ten3 (BDIX)
-http://tv.basnetbd.com:8080/roarzone/bk/22/preview.mp4?token=fcb6108e15dd2c5eef7c67f278a0e7f1a1308677-969fc8ba338c3329615fad33cec731f1-1720985641-1720964041
+http://tv.basnetbd.com:8080/roarzone/bk/22/tracks-v1a1/mono.m3u8?token=431119d13167d96d1e45466dfdf530575c5b242b-07dd51a7ca673079390deb5806a428dd-1721000583-1720978983
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sony_ESPN_logo.svg/200px-Sony_ESPN_logo.svg.png" group-title="BD",Sony ESPN (BDIX)
+http://tv.basnetbd.com:8080/roarzone/bk/23/tracks-v1a1/mono.m3u8?token=c7bee8c1a714af8b87503f7aacc9170491b9627b-9e7c83003847e265b80988bb9a80493a-1721000155-1720978555
+
 
 
 #EXTINF:-1 tvg-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="BD",Asian TV (720p)
