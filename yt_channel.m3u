@@ -11,11 +11,11 @@ http://tv.basnetbd.com:8080/roarzone/bk/20/tracks-v1a1/mono.m3u8?token=8618e51f1
 
 
 
-#EXTINF:-1 tvg-id="AsianTV.bd" group-title="BD",Asian TV (720p)
+#EXTINF:-1 tvg-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="BD",Asian TV (720p)
 https://mtlivestream.site/asian/ytlive/index.m3u8
-#EXTINF:-1 tvg-id="ChannelS.bd" group-title="BD",Channel S (1080p)
+#EXTINF:-1 tvg-id="ChannelS.bd" tvg-logo="https://i.imgur.com/IDjoXfu.png" group-title="BD",Channel S (1080p)
 https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
-#EXTINF:-1 tvg-id="EkusheyTV.bd" group-title="BD",Ekushey TV (480p)
+#EXTINF:-1 tvg-id="EkusheyTV.bd" tvg-logo="https://i.imgur.com/lRpkGHj.png" group-title="BD",Ekushey TV (480p)
 https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png" group-title="BD",Bangla TV
 https://byphdgllyk.gpcdn.net/hls/banglatvbd/index.m3u8
