@@ -8,7 +8,10 @@ http://tv.basnetbd.com:8080/roarzone/bk/1/tracks-v1a1/mono.m3u8?token=80bea6caba
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/hWo7Ba4.png" group-title="BD",Sony Ten1 (BDIX)
 http://tv.basnetbd.com:8080/roarzone/bk/20/tracks-v1a1/mono.m3u8?token=8618e51f1f390ad7c248c7ee7f22651d8f95066d-761c81a2209f8baa0a97cd61b83d7b78-1720984698-1720963098
-
+#EXTINF:-1 tvg-logo="https://i.imgur.com/W96KVqu.png" group-title="BD",Sony Ten2 (BDIX)
+http://tv.basnetbd.com:8080/roarzone/bk/21/preview.mp4?token=052f6af2a63bdc6db48f4580c760648544bb3ef8-9a0ca131a9eeb31578333fad173e657f-1720985626-1720964026
+#EXTINF:-1 tvg-logo="https://i.imgur.com/vG19HxD.png" group-title="BD",Sony Ten3 (BDIX)
+http://tv.basnetbd.com:8080/roarzone/bk/22/preview.mp4?token=fcb6108e15dd2c5eef7c67f278a0e7f1a1308677-969fc8ba338c3329615fad33cec731f1-1720985641-1720964041
 
 
 #EXTINF:-1 tvg-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="BD",Asian TV (720p)
