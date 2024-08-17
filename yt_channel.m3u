@@ -361,8 +361,6 @@ https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5
 
 #EXTINF:-1 tvg-logo="" group-title="Movies",RedBox Comedy
 https://comedy-redbox.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLOrrVnk_41l-x7vMswKXKH2YJYGL5TNx6MzOEbEvzUA&s" group-title="Movies",Manoranjan Movies
-http://longstream-04.ajaah.com/PlayBoxTV/ManoranjanMovies/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies", Hollywood Desi
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/hollywood-desi/playlist.m3u8
 #EXTINF:-1 tvg-logo="" group-title="Movies",KMovies
