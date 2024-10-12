@@ -1,10 +1,11 @@
 #EXTM3U
 
+#EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD, BDIX",Tsports (BDIX)
+http://10.10.10.2/live/fnffeed1001/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/54/Colors_%282008-16%2C_Shaded%29.png" group-title="BDIX",Colors HD
 http://10.99.99.99:8080/roarzone/bk/68/index.m3u8?token=f386c750ef40f40b95caffc3410525c433cf4b84-d6e1df043f149846001b6e43138e3633-1728769554-1728747954
 
-#EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD, BDIX",Tsports (BDIX)
-http://10.10.10.2/live/fnffeed1001/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/aeRwuEORDe2Xq2U9FSPfeSxdaKXybbhaVKkorDV4tNiIWEF9U0aZD3e9VKjzeRg3UVclGEJU=s160-c-k-c0x00ffffff-no-rj" group-title="BD",Gazi TV (BDIX)
 http://tv.basnetbd.com:8080/roarzone/bk/1/tracks-v1a1/mono.m3u8?token=80bea6caba8fa3dc93afe67a64337d9dfe97b621-f348b3b2c641f8e22b2505ce3b84d4d9-1720984492-1720962892
