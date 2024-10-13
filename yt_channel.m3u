@@ -154,7 +154,14 @@ http://tv.cloudcdn.me/live.ts?channelId=113&uid=13603&deviceMac=00:1A:79:64:B4:A
 https://cdn3.pishow.tv/live/281/master.m3u8
 
 
-
+#EXTINF:-1 group-title="INDIAN CHANNELS",STAR PLUS HD
+http://217.20.112.199/starplushd/index.m3u8
+#EXTINF:-1 group-title="INDIAN CHANNELS",SONY TV HD
+http://tv.cloudcdn.me/live.ts?channelId=193&uid=13603&deviceMac=00:1A:79:64:B4:A6
+#EXTINF:-1 group-title="INDIAN CHANNELS",COLORS HD
+http://tv.cloudcdn.me/live.ts?channelId=36129&uid=13603&deviceMac=00:1A:79:64:B4:A6
+#EXTINF:-1 group-title="INDIAN CHANNELS",COLORS RISHTEY
+http://tv.cloudcdn.me/live.ts?channelId=158&uid=13603&deviceMac=00:1A:79:64:B4:A6
 #EXTINF:-1 group-title="INDIAN CHANNELS" tvg-logo="https://i.ibb.co/71YYWp6/Zee-TV-HD.png",Zee TV HD (Zee)
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetvhd1/default/thenayeemparvez.m3u8
 #EXTINF:-1 group-title="INDIAN CHANNELS" tvg-logo="https://i.ibb.co/mSpBFBS/tvHD.png",&TV HD (And TV HD) (Zee)
@@ -243,14 +250,6 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetalkieshd1/default/zeetelkieshd1
 #EXTINF:-1 group-title="ZEE5" tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,h_250,w_250/https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/imageContent-8849-j7pqmypc-v2/imageContent-8849-j7pqmypc-m3.png",Zee Cinemalu
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemalu1/default/zeecinemalu1.m3u8
 
-#EXTINF:-1 group-title="INDIA HINDI",STAR PLUS HD
-http://217.20.112.199/starplushd/index.m3u8
-#EXTINF:-1 group-title="INDIA HINDI",SONY TV HD
-http://tv.cloudcdn.me/live.ts?channelId=193&uid=13603&deviceMac=00:1A:79:64:B4:A6
-#EXTINF:-1 group-title="INDIA HINDI",COLORS HD
-http://tv.cloudcdn.me/live.ts?channelId=36129&uid=13603&deviceMac=00:1A:79:64:B4:A6
-#EXTINF:-1 group-title="INDIA HINDI",COLORS RISHTEY
-http://tv.cloudcdn.me/live.ts?channelId=158&uid=13603&deviceMac=00:1A:79:64:B4:A6
 
 #EXTINF:-1 group-title="HINDI MOVIES" tvg-logo="https://i.ibb.co/vZXSqf0/20240816-214223.png",BHEJPURI CINEMA
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
