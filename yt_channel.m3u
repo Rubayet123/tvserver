@@ -1,10 +1,19 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png"group-title="BD",ATN Bangla
+https://entezeetv.fun/bdcast/hls/index.m3u8?id=ae559a27&e=.m3u8|Referer=https://entezeetv.fun/bdcast//
+#EXTINF:-1 tvg-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="BD",Asian TV (720p)
+https://mtlivestream.site/asian/ytlive/index.m3u8
+#EXTINF:-1 tvg-id="ChannelS.bd" tvg-logo="https://i.imgur.com/IDjoXfu.png" group-title="BD",Channel S (1080p)
+https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
+#EXTINF:-1 tvg-id="EkusheyTV.bd" tvg-logo="https://i.imgur.com/lRpkGHj.png" group-title="BD",Ekushey TV (480p)
+https://ekusheyserver.com/etvlivesn.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png" group-title="BD",Bangla TV
+https://byphdgllyk.gpcdn.net/hls/banglatvbd/index.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png" group-title="BD",Bangla TV Europe
+https://byphdgllyk.gpcdn.net/hls/banglatveurope/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BD",Tsports (BDIX)
 http://10.10.10.2/live/fnffeed1001/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/54/Colors_%282008-16%2C_Shaded%29.png" group-title="BDIX",Colors HD
-http://10.99.99.99:8080/roarzone/bk/68/index.m3u8?token=f386c750ef40f40b95caffc3410525c433cf4b84-d6e1df043f149846001b6e43138e3633-1728769554-1728747954
 
 
 
@@ -28,6 +37,8 @@ http://tv.cloudcdn.me:80/live.ts?channelId=84&uid=3788&deviceMac=00:1A:79:6D:8A:
 http://tv.cloudcdn.me:80/live.ts?channelId=93&uid=3788&deviceMac=00:1A:79:6D:8A:C6
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://images.toffeelive.com/images/program/42/logo/240x240/mobile_logo_554709001657185722.png",ATN NEWS HD
 http://tv.cloudcdn.me:80/live.ts?channelId=83&uid=3788&deviceMac=00:1A:79:6D:8A:C6
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.postimg.cc/R05tLFg1/Background-Eraser-20240628-101059334.png",Atn News
+http://premiumdedi.one/live/Jubilant7Relative/xmb1HEJBsY/451535.ts
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://images.toffeelive.com/images/program/368/logo/240x240/mobile_logo_784215001656610543.png",MOHONA TV HD
 http://tv.cloudcdn.me/live.ts?channelId=103&uid=8164&deviceMac=00:1A:79:17:D4:A1
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://images.toffeelive.com/images/program/40/logo/240x240/mobile_logo_819689001655890845.png",INDEPENDENT TV
@@ -52,26 +63,36 @@ http://alvetv.com/moviebanglatv/8080/index.m3u8
 https://himel-op.top/Join-Telegram-@HimelOP_Official/yt-op.m3u8?live=@NexusTelevisionLive
 #EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://images.toffeelive.com/images/program/11841/logo/240x240/mobile_logo_456366001662385216.png",GLOBAL TV HD
 http://starshare.live:8080/live/Leroy123/Leroy123/4231.m3u8
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Channel%20I.png",Channel I
+
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Channel%20I.png",Channel I
 https://channel-i-tv.rockstreamer.com/chlive/121212/chunks.m3u8
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://i.postimg.cc/C15wr1RW/Ekushey-Television-Logo-svg.png",Ekushey TV
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.postimg.cc/C15wr1RW/Ekushey-Television-Logo-svg.png",Ekushey TV
 https://ekusheyserver.com/hls-live/livepkgr/_definst_/liveevent/livestream3.m3u8
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Banglavision.png",Banglavision
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Banglavision.png",Banglavision
 http://tv.cloudcdn.me/live.ts?channelId=84&uid=16068&deviceMac=00:1A:79:ED:10:29
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/My%20TV.svg.png",My Tv
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/My%20TV.svg.png",My Tv
 https://mytvbangla.com/0.m3u8
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://i.postimg.cc/Gp704rZk/Background-Eraser-20240628-105643059.png",Maasranga
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.postimg.cc/Gp704rZk/Background-Eraser-20240628-105643059.png",Maasranga
 https://mtv.sunplex.live/MAASRANGA-TV/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Bangladeshi News" tvg-logo="https://i.postimg.cc/R05tLFg1/Background-Eraser-20240628-101059334.png",Atn News
-http://premiumdedi.one/live/Jubilant7Relative/xmb1HEJBsY/451535.ts
-#EXTINF:-1 group-title="BANGLADESHI" tvg-logo="https://rb.gy/fi4kqf",DESH TV
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://rb.gy/fi4kqf",DESH TV
 https://entezeetv.fun/bdcast/hls/cdn_ytl.m3u8?id=537cc763a06a8979484821ac637fcfee
-#EXTINF:-1 group-title="BANGLADESHI" tvg-logo="https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png",Deshi Tv
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://www.deshitv.com/images//bangla_logo/DeshTV24-BanglaLogo.png",Deshi Tv
 https://deshitv.deshitv24.net/live/myStream/playlist.m3u8
-#EXTINF:-1 group-title="BANGLADESHI" tvg-logo="https://i.imgur.com/Nbw3bKO.png",Probashi Tv
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.imgur.com/Nbw3bKO.png",Probashi Tv
 http://probashi.alvegroups.com:8081/probashitv/probashi/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png"group-title="BD",ATN Bangla
-https://entezeetv.fun/bdcast/hls/index.m3u8?id=ae559a27&e=.m3u8|Referer=https://entezeetv.fun/bdcast//
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.ibb.co/kMkJDdz/moviebanglatv-logo.png",Movie Bangla HD
+http://alvetv.com/moviebanglatv/8080/index.m3u8
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.postimg.cc/VLvmY54v/images-5-24.jpg",Rajdhani TV
+https://cdn.ncare.live/live-orgin/rajdhanitv.stream/chunks.m3u8
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://www.bangladeshcircle.com/wp-content/uploads/2016/05/NRB-TV.jpg",NRB Tv
+http://tv.cloudcdn.me:80/live.ts?channelId=74625&uid=16068&deviceMac=00:1A:79:ED:10:29
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKcBpyvbSgpH81q14vxwSCozfmQpZMUlAwQ&s",Deshi Tv HD
+http://208.86.19.13:81/514.stream/index.m3u8
+
+
+
+
+
 #EXTINF:-1 group-title="Nayeem's BDCast" tvg-logo="https://i.postimg.cc/0QdZyPnb/ATN-Music-TV.png",ATN Music
 https://entezeetv.fun/bdcast/hls/index.m3u8?id=e181c0f8&e=.m3u8|Referer=https://entezeetv.fun/bdcast//
 #EXTINF:-1 group-title="Nayeem's BDCast" tvg-logo="https://i.postimg.cc/5y8VKjyM/Bangla-Vision.png",Bangla Vision HD
@@ -110,26 +131,7 @@ https://entezeetv.fun/bdcast/hls/index.m3u8?id=0RTkWfzB&e=.m3u8|Referer=https://
 https://entezeetv.fun/bdcast/hls/index.m3u8?id=4eavizab&e=.m3u8|Referer=https://entezeetv.fun/bdcast//
 #EXTINF:-1 group-title="Nayeem's BDCast" tvg-logo="https://i.postimg.cc/J0zSc30y/TV9-Bangla.png",TV9 Bangla
 https://entezeetv.fun/bdcast/hls/index.m3u8?id=he4be5di&e=.m3u8|Referer=https://entezeetv.fun/bdcast/
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://i.ibb.co/kMkJDdz/moviebanglatv-logo.png",Movie Bangla
-http://alvetv.com/moviebanglatv/8080/index.m3u8
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://i.postimg.cc/VLvmY54v/images-5-24.jpg",Rajdhani TV
-https://cdn.ncare.live/live-orgin/rajdhanitv.stream/chunks.m3u8
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://www.bangladeshcircle.com/wp-content/uploads/2016/05/NRB-TV.jpg",NRB Tv
-http://tv.cloudcdn.me:80/live.ts?channelId=74625&uid=16068&deviceMac=00:1A:79:ED:10:29
-#EXTINF:-1 group-title="Bangladeshi" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxKcBpyvbSgpH81q14vxwSCozfmQpZMUlAwQ&s",Deshi Tv
-http://208.86.19.13:81/514.stream/index.m3u8
 
-
-#EXTINF:-1 tvg-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="BD",Asian TV (720p)
-https://mtlivestream.site/asian/ytlive/index.m3u8
-#EXTINF:-1 tvg-id="ChannelS.bd" tvg-logo="https://i.imgur.com/IDjoXfu.png" group-title="BD",Channel S (1080p)
-https://amigofx.com:1936/channelsreporter/channelsreporter/playlist.m3u8
-#EXTINF:-1 tvg-id="EkusheyTV.bd" tvg-logo="https://i.imgur.com/lRpkGHj.png" group-title="BD",Ekushey TV (480p)
-https://ekusheyserver.com/etvlivesn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png" group-title="BD",Bangla TV
-https://byphdgllyk.gpcdn.net/hls/banglatvbd/index.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png" group-title="BD",Bangla TV Europe
-https://byphdgllyk.gpcdn.net/hls/banglatveurope/index.m3u8
 
 
 
