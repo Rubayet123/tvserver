@@ -127,7 +127,10 @@ https://entezeetv.fun/bdcast/hls/index.m3u8?id=he4be5di&e=.m3u8|Referer=https://
 
 
 
-
+#EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="KOLKATA", Star Jalsha HD2 
+https://fsd3.short.gy/Star_jalsha.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg" group-title="KOLKATA",Enter 10 Bangla2
+https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 #EXTINF:-1 group-title="KOLKATA" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/a/ab/Star_Jalsha_HD_logo_%282011%29.png/revision/latest?cb=20210420232004",STAR JALSHA
 http://tv.cloudcdn.me/live.ts?channelId=116&uid=7245&deviceMac=00:1A:79:B0:A9:0C
 #EXTINF:-1 group-title="KOLKATA" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2Q7uapuWTAVRaD039RIlS1megRzg0sL3rT441eQJyIA7uvtkKBuIm4Yg&s=10",JALSHA MOVIES
@@ -425,48 +428,14 @@ https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/eu-w
 http://dmitwlvvll.cdn.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Ariana_television_logo.png",ATN AFGHANISTAN
 https://d10rltuy0iweup.cloudfront.net/ATNNAT/myStream/playlist.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2durMYUg2FHuS2javIhuAAYEQ0sjjc1Ib5Q&usqp=CAU" group-title="Cricket 🏏",LPL 2024 T Sports Live1
-https://bdix.proximitybd.xyz/lanka.php?id=live-01&e.m3u8
-#EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2durMYUg2FHuS2javIhuAAYEQ0sjjc1Ib5Q&usqp=CAU" group-title="Cricket 🏏",LPL 2024 T Sports Live2
-https://bdix.proximitybd.xyz/lanka.php?id=live-02&e.m3u8
-
-#EXTINF:-1 tvg-logo="https://edge01.iptv.digijadoo.net/static/t_sports.png" group-title="Cricket 🏏", T Sports HD
-https://homeip.biz/GaziTV/index.m3u8
-#EXTINF:-1 tvg-logo=" " group-title="Cricket 🏏", A Sports T_20 World Cup
-https://homeip.biz/PK_PS/index.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Cricket 🏏" tvg-logo="", ✅ ATN AFG TV
+#EXTINF:-1 tvg-logo="" group-title="Sports" tvg-logo="", ✅ ATN AFG TV
 https://d10rltuy0iweup.cloudfront.net/ATNINT/myStream/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Cricket 🏏",🔲 Event TV 📶 HD
-https://sltlivetestgcp.yuppcdn.net/120623/smil:eventtv.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Cricket 🏏", Redbull TV
+#EXTINF:-1 tvg-logo="" group-title="Sports", Redbull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/D9KhnQN/download-4.jpg" group-title="Football ⚽️", Premier Sports 1  🏆
-https://cdn.hotflix-bd.online/hotflixbd/Premier-sports1/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/GpVSKBQ/images.png" group-title="Football ⚽️", COPA AMERICA 2024 🏆
+#EXTINF:-1 tvg-logo="https://i.ibb.co/GpVSKBQ/images.png" group-title="Sports", COPA AMERICA 2024 🏆
 https://hw1.jemtv.com/app/tv85/chunks.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/7VZqMNk/download-4.png" group-title="Football ⚽️", VTC 1 HD 🏆
+#EXTINF:-1 tvg-logo="https://i.ibb.co/7VZqMNk/download-4.png" group-title="Sports", VTC 1 HD 🏆
 https://liveh12.vtvcab.vn/hls/ONVTC1_CL/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PMhQHDt/images.png" group-title="Football ⚽️", TRT 1 🏆
-https://d1u68oyra9spme.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PMhQHDt/images.png" group-title="Football ⚽️", TRT HD Euro 🏆
-https://d1u68oyra9spme.cloudfront.net/master_4.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TvMbnLR/download-2.png" group-title="Football ⚽️", CCTV5 HD
-https://node3.olelive.com:6443/live/CCTV5HD_360/hls.m3u8
-#EXTINF:-1 tvg-logo="" group-title="Football ⚽️", Canal Sports 3
-http://145.239.5.177:8080/538/index.m3u8
-
-
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/HVTPBf7/download-2.jpg" group-title="Indian Bangla", Star Jalsha HD 
-https://fsd3.short.gy/Star_jalsha.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/vNOe5sq.png" group-title="Indian Bangla", Colors Bangla HD
-https://entezeetv.fun/bdcast/hls/cdn_jio.m3u8?id=48182484f45eed3c745a6607b8313537b4649f2fed36da8f093dc46bcc9591bb
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Enter%2010%20Bangla.jpeg" group-title="Indian Bangla",Enter 10 Bangla
-https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
 
 
 
