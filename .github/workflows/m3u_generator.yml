@@ -2,8 +2,7 @@ name: Generate M3U
 
 on:
   schedule:
-    # Runs every 4 hours
-    - cron: '0 */4 * * *'
+    - cron: '0 */4 * * *'  # Runs every 4 hours
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
@@ -17,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.8'  # Use a lightweight version of Python
 
       - name: Install dependencies
         run: pip install requests
