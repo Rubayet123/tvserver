@@ -1,14 +1,14 @@
 import re
 import requests
 import json
+import concurrent.futures
 
 def get_token_from_url(url):
-    """Fetch the token from the given URL."""
+    """Fetch the token from the given URL with a timeout."""
     try:
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an error for bad status codes
-        token = extract_token(response.url)  # Extract token from the final URL
-        return token if token else None
+        response = requests.get(url, timeout=10)  # Timeout after 10 seconds
+        response.raise_for_status()
+        return extract_token(response.url)  # Extract token from final URL
     except requests.RequestException as e:
         print(f"Failed to fetch token from {url}: {e}")
         return None
@@ -19,27 +19,33 @@ def extract_token(url):
     match = re.search(pattern, url)
     return match.group(1) if match else None
 
+def fetch_token_parallel(urls):
+    """Fetch tokens for all URLs in parallel using ThreadPoolExecutor."""
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        results = list(executor.map(get_token_from_url, urls))
+    return results
+
 def generate_m3u_content(json_data):
     """Generate the M3U content from the JSON data."""
     m3u_lines = ["#EXTM3U"]
-    
-    for channel in json_data:
-        url = channel["URL"]
+    urls = [channel["URL"] for channel in json_data]
+
+    # Fetch all tokens in parallel
+    tokens = fetch_token_parallel(urls)
+
+    for channel, token in zip(json_data, tokens):
         logo = channel["tvg-logo"]
         name = channel["channel-name"]
         group = channel["group-title"]
 
-        # Fetch the token from the channel URL
-        token = get_token_from_url(url)
-
         if token:
-            # Construct the stream URL with the token
+            # Construct stream URL with the token
             stream_url = f"http://10.99.99.99:8080/roarzone/bk/{name}/index.m3u8?token={token}"
 
-            # Add M3U entry with a newline separator between channels
+            # Add M3U entry
             m3u_lines.append(f'#EXTINF:-1 group-title="{group}" tvg-logo="{logo}",{name}')
             m3u_lines.append(stream_url)
-            m3u_lines.append("")  # Add an extra newline between entries
+            m3u_lines.append("")  # Extra newline between entries
 
     return "\n".join(m3u_lines)
 
@@ -50,7 +56,7 @@ def save_m3u_file(content, filename="channels.m3u"):
     print(f"M3U file saved as {filename}")
 
 if __name__ == "__main__":
-    # JSON input (replace this with your actual input)
+    # JSON input (replace this with your actual input if needed)
     json_input = '''
     [
         {
