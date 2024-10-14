@@ -1,9 +1,25 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png" group-title="BANGLADESH",Tsports (BDIX)
+#EXTINF:-1 group-title="BDIX" tvg-logo="https://i.imgur.com/E5jjKHI.png",Star sports1 (BDIX)
 http://10.10.10.2/live/fnffeed1001/index.m3u8
 
+#EXTINF:-1 group-title="BDIX" tvg-logo="https://i.imgur.com/2Lzhiq6.png",Gazi (BDIX)
+http://10.10.10.2/live/fnffeed1002/index.m3u8
 
+#EXTINF:-1 group-title="BDIX" tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png",Tsports (BDIX)
+http://10.10.10.2/live/fnffeed1003/index.m3u8
+
+#EXTINF:-1 group-title="BDIX" tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png",Undefine (BDIX)
+http://10.10.10.2/live/fnffeed1003/index.m3u8
+
+
+
+
+
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://www.tsports.com/images/favicon_io/android-icon-192x192.png",Tsports (BDIX)
+http://10.10.10.2/live/fnffeed1003/index.m3u8
+#EXTINF:-1 group-title="BANGLADESH" tvg-logo="https://i.imgur.com/2Lzhiq6.png",Gazi (BDIX)
+http://10.10.10.2/live/fnffeed1002/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png"group-title="BANGLADESH",ATN Bangla
 https://entezeetv.fun/bdcast/hls/index.m3u8?id=ae559a27&e=.m3u8|Referer=https://entezeetv.fun/bdcast//
 #EXTINF:-1 tvg-id="AsianTV.bd" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="BANGLADESH",Asian TV (720p)
