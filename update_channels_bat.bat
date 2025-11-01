@@ -3,7 +3,7 @@ REM Run the Python script to generate channels.m3u
 python generate_channels.py
 
 REM Navigate to your GitHub repository
-cd C:\Users\Rubayet Alam\Documents\VScode Projects\Vscode_My_Apps\TV_server_scrape
+cd C:\Users\{Username}\Documents\VScode Projects\Vscode_My_Apps\TV_server_scrape
 
 REM Add the updated channels.m3u file to Git
 git add channels.m3u
