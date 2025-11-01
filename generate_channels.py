@@ -1,449 +1,182 @@
-import re
-import requests
-import json
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-def get_token_from_url(url):
-    """Fetch the token from the given URL."""
+import re
+import time
+from pathlib import Path
+from typing import List, Tuple, Optional
+from urllib.parse import urljoin
+
+import requests
+from bs4 import BeautifulSoup
+from tqdm import tqdm
+
+# ----------------------------------------------------------------------
+# CONFIGURATION ---------------------------------------------------------
+BASE_URL = "http://redforce.live/"          # CHANGE TO YOUR SITE!
+# Example: "https://your-live-tv-site.com/"
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/129.0.0.0 Safari/537.36"
+    ),
+    "Referer": BASE_URL,
+}
+REQUEST_DELAY = 0.8
+TIMEOUT = 15
+# ----------------------------------------------------------------------
+
+
+def get_page(session: requests.Session) -> BeautifulSoup:
+    url = BASE_URL.rstrip("/") + "/"
+    print(f"Fetching: {url}")
+    r = session.get(url, headers=HEADERS, timeout=TIMEOUT)
+    r.raise_for_status()
+    return BeautifulSoup(r.text, "lxml")
+
+
+def extract_channels(soup: BeautifulSoup) -> List[Tuple[str, List[str], str, str]]:
+    """
+    Yield: (name, categories, stream_id, logo_url)
+    """
+    channels = []
+
+    for li in soup.select("ul#vidlink li"):
+        a = li.find("a", {"onclick": True})
+        if not a:
+            continue
+
+        onclick = a.get("onclick", "")
+        m = re.search(r"stream=(\d+)", onclick)
+        if not m:
+            continue
+        stream_id = m.group(1)
+
+        img = a.find("img")
+        if not img:
+            continue
+
+        name = img.get("alt", f"Channel {stream_id}").strip()
+        logo_path = img.get("src")
+        logo_url = urljoin(BASE_URL, logo_path) if logo_path else ""
+
+        classes = li.get("class", [])
+        categories = [c for c in classes if c and c != "All"]
+
+        channels.append((name, categories, stream_id, logo_url))
+        print(f"Found: {name} | ID: {stream_id} | Logo: {logo_url}")
+
+    return channels
+
+
+def resolve_stream_url(session: requests.Session, stream_id: str) -> Optional[str]:
+    player_url = urljoin(BASE_URL, f"player.php?stream={stream_id}")
     try:
-        response = requests.get(url)
-        response.raise_for_status()  # Raise an error for bad status codes
-        token = extract_token(response.url)  # Extract token from the final URL
-        return token if token else None
+        r = session.get(player_url, headers=HEADERS, timeout=TIMEOUT)
+        r.raise_for_status()
     except requests.RequestException as e:
-        print(f"Failed to fetch token from {url}: {e}")
+        print(f"  [ERROR] {e}")
         return None
 
-def extract_token(url):
-    """Extract the token from the URL using regex."""
-    pattern = r'token=([a-f0-9\-]+)'  # Regex to capture the token
-    match = re.search(pattern, url)
-    return match.group(1) if match else None
+    text = r.text
 
-def generate_m3u_content(json_data):
-    """Generate the M3U content from the JSON data."""
-    m3u_lines = ["#EXTM3U"]
-    
-    for channel in json_data:
-        url = channel["URL"]
-        logo = channel["tvg-logo"]
-        name = channel["channel-name"]
-        group = channel["group-title"]
+    # Try multiple patterns
+    patterns = [
+        r'<iframe[^>]+src=["\']([^"\']*\.m3u8?[^"\']*)["\']',
+        r'<source[^>]+src=["\']([^"\']*\.m3u8?[^"\']*)["\']',
+        r'src\s*[:=]\s*["\']([^"\']*\.m3u8?[^"\']*)["\']',
+        r'(https?://[^\s\'"]*\.m3u8[^\s\'"]*)',
+    ]
 
-        # Fetch the token from the channel URL
-        token = get_token_from_url(url)
+    for pattern in patterns:
+        match = re.search(pattern, text, re.I)
+        if match:
+            url = match.group(1).strip()
+            return urljoin(player_url, url)
 
-        if token:
-            # Construct the stream URL with the token
-            stream_url = f"http://10.99.99.99:8080/roarzone/bk/{name}/index.m3u8?token={token}"
+    if ".m3u8" in r.url:
+        return r.url
 
-            # Add M3U entry with a newline separator between channels
-            m3u_lines.append(f'#EXTINF:-1 group-title="{group}" tvg-logo="{logo}",{name}')
-            m3u_lines.append(stream_url)
-            m3u_lines.append("")  # Add an extra newline between entries
+    print(f"  [WARN] No m3u8 found in player page (stream={stream_id})")
+    return None
 
-    return "\n".join(m3u_lines)
 
-def save_m3u_file(content, filename="channels.m3u"):
-    """Save the generated M3U content to a file."""
-    with open(filename, "w") as f:
-        f.write(content)
-    print(f"M3U file saved as {filename}")
+def build_m3u(channels: List[Tuple[str, List[str], str, str, str]]) -> str:
+    lines = ["#EXTM3U"]
+    #lines.append('#EXT-X-VERSION:3')
+
+    for name, cats, stream_id, logo_url, m3u_url in channels:
+        group = cats[0] if cats else "Uncategorized"
+        clean_name = name.replace('"', "'").replace(",", " ")
+
+        # tvg-logo = channel thumbnail
+        logo_part = f' tvg-logo="{logo_url}"' if logo_url else ""
+
+        extinf = f'#EXTINF:-1 tvg-name="{clean_name}"{logo_part} group-title="{group}",{clean_name}'
+        lines.append(extinf)
+        lines.append(m3u_url)
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def main():
+    session = requests.Session()
+    session.headers.update(HEADERS)
+
+    try:
+        print("Downloading main page...")
+        soup = get_page(session)
+
+        print("Extracting channels with logos...")
+        raw_channels = extract_channels(soup)
+        print(f"Found {len(raw_channels)} channels.")
+
+        if not raw_channels:
+            print("No channels found. Check BASE_URL.")
+            return
+
+        print("\nResolving stream URLs...")
+        resolved = []
+        for name, cats, stream_id, logo_url in tqdm(raw_channels, desc="Resolving", unit="ch"):
+            m3u_url = resolve_stream_url(session, stream_id)
+            time.sleep(REQUEST_DELAY)
+            if m3u_url:
+                resolved.append((name, cats, stream_id, logo_url, m3u_url))
+            else:
+                print(f"  Failed: {name}")
+
+        print(f"\nResolved {len(resolved)} streams.")
+
+        if resolved:
+            m3u_content = build_m3u(resolved)
+            out_file = Path("channels.m3u")
+            out_file.write_text(m3u_content, encoding="utf-8")
+            print(f"\nM3U saved: {out_file.absolute()}")
+            print(f"Channels with logos: {len(resolved)}")
+
+            # Category summary
+            from collections import Counter
+            cat_count = Counter(cats[0] if cats else "Uncategorized" for _, cats, _, _, _ in resolved)
+            print("\nCategory breakdown:")
+            for cat, cnt in sorted(cat_count.items()):
+                print(f"  {cat}: {cnt}")
+        else:
+            print("No valid streams found.")
+
+    except Exception as e:
+        print(f"Error: {e}")
+        import traceback
+        traceback.print_exc()
+    finally:
+        session.close()
+
 
 if __name__ == "__main__":
-    # JSON input (replace this with your actual input)
-    json_input = '''
-    [
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/1",
-            "tvg-logo": "http://tvassets.roarzone.info/images/1.png",
-            "channel-name": "1",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/2",
-            "tvg-logo": "http://tvassets.roarzone.info/images/2.png",
-            "channel-name": "2",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/3",
-            "tvg-logo": "http://tvassets.roarzone.info/images/3.png",
-            "channel-name": "3",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/4",
-            "tvg-logo": "http://tvassets.roarzone.info/images/4.png",
-            "channel-name": "4",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/5",
-            "tvg-logo": "http://tvassets.roarzone.info/images/5.png",
-            "channel-name": "5",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/6",
-            "tvg-logo": "http://tvassets.roarzone.info/images/6.png",
-            "channel-name": "6",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/7",
-            "tvg-logo": "http://tvassets.roarzone.info/images/7.png",
-            "channel-name": "7",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/8",
-            "tvg-logo": "http://tvassets.roarzone.info/images/8.png",
-            "channel-name": "8",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/9",
-            "tvg-logo": "http://tvassets.roarzone.info/images/9.png",
-            "channel-name": "9",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/10",
-            "tvg-logo": "http://tvassets.roarzone.info/images/10.png",
-            "channel-name": "10",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/11",
-            "tvg-logo": "http://tvassets.roarzone.info/images/11.png",
-            "channel-name": "11",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/12",
-            "tvg-logo": "http://tvassets.roarzone.info/images/12.png",
-            "channel-name": "12",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/13",
-            "tvg-logo": "http://tvassets.roarzone.info/images/13.png",
-            "channel-name": "13",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/14",
-            "tvg-logo": "http://tvassets.roarzone.info/images/14.png",
-            "channel-name": "14",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/15",
-            "tvg-logo": "http://tvassets.roarzone.info/images/15.png",
-            "channel-name": "15",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/17",
-            "tvg-logo": "http://tvassets.roarzone.info/images/17.png",
-            "channel-name": "17",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/18",
-            "tvg-logo": "http://tvassets.roarzone.info/images/18.png",
-            "channel-name": "18",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/19",
-            "tvg-logo": "http://tvassets.roarzone.info/images/19.png",
-            "channel-name": "19",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/20",
-            "tvg-logo": "http://tvassets.roarzone.info/images/20.png",
-            "channel-name": "20",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/21",
-            "tvg-logo": "http://tvassets.roarzone.info/images/21.png",
-            "channel-name": "21",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/22",
-            "tvg-logo": "http://tvassets.roarzone.info/images/22.png",
-            "channel-name": "22",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/23",
-            "tvg-logo": "http://tvassets.roarzone.info/images/23.png",
-            "channel-name": "23",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/25",
-            "tvg-logo": "http://tvassets.roarzone.info/images/25.png",
-            "channel-name": "25",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/26",
-            "tvg-logo": "http://tvassets.roarzone.info/images/26.png",
-            "channel-name": "26",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/27",
-            "tvg-logo": "http://tvassets.roarzone.info/images/27.png",
-            "channel-name": "27",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/28",
-            "tvg-logo": "http://tvassets.roarzone.info/images/28.png",
-            "channel-name": "28",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/29",
-            "tvg-logo": "http://tvassets.roarzone.info/images/29.png",
-            "channel-name": "29",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/30",
-            "tvg-logo": "http://tvassets.roarzone.info/images/30.png",
-            "channel-name": "30",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/31",
-            "tvg-logo": "http://tvassets.roarzone.info/images/31.png",
-            "channel-name": "31",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/33",
-            "tvg-logo": "http://tvassets.roarzone.info/images/33.png",
-            "channel-name": "33",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/34",
-            "tvg-logo": "http://tvassets.roarzone.info/images/34.png",
-            "channel-name": "34",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/35",
-            "tvg-logo": "http://tvassets.roarzone.info/images/35.png",
-            "channel-name": "35",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/37",
-            "tvg-logo": "http://tvassets.roarzone.info/images/37.png",
-            "channel-name": "37",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/41",
-            "tvg-logo": "http://tvassets.roarzone.info/images/41.png",
-            "channel-name": "41",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/83",
-            "tvg-logo": "http://tvassets.roarzone.info/images/43.png",
-            "channel-name": "43",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/48",
-            "tvg-logo": "http://tvassets.roarzone.info/images/48.png",
-            "channel-name": "48",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/50",
-            "tvg-logo": "http://tvassets.roarzone.info/images/50.png",
-            "channel-name": "50",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/53",
-            "tvg-logo": "http://tvassets.roarzone.info/images/53.png",
-            "channel-name": "53",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/54",
-            "tvg-logo": "http://tvassets.roarzone.info/images/54.png",
-            "channel-name": "54",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/55",
-            "tvg-logo": "http://tvassets.roarzone.info/images/55.png",
-            "channel-name": "55",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/56",
-            "tvg-logo": "http://tvassets.roarzone.info/images/56.png",
-            "channel-name": "56",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/58",
-            "tvg-logo": "http://tvassets.roarzone.info/images/58.png",
-            "channel-name": "58",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/59",
-            "tvg-logo": "http://tvassets.roarzone.info/images/59.png",
-            "channel-name": "59",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/61",
-            "tvg-logo": "http://tvassets.roarzone.info/images/61.png",
-            "channel-name": "61",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/62",
-            "tvg-logo": "http://tvassets.roarzone.info/images/62.png",
-            "channel-name": "62",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/65",
-            "tvg-logo": "http://tvassets.roarzone.info/images/65.png",
-            "channel-name": "65",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/66",
-            "tvg-logo": "http://tvassets.roarzone.info/images/66.png",
-            "channel-name": "66",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/67",
-            "tvg-logo": "http://tvassets.roarzone.info/images/67.png",
-            "channel-name": "67",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/68",
-            "tvg-logo": "http://tvassets.roarzone.info/images/68.png",
-            "channel-name": "68",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/69",
-            "tvg-logo": "http://tvassets.roarzone.info/images/69.png",
-            "channel-name": "69",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/72",
-            "tvg-logo": "http://tvassets.roarzone.info/images/72.png",
-            "channel-name": "72",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/73",
-            "tvg-logo": "http://tvassets.roarzone.info/images/73.png",
-            "channel-name": "73",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/76",
-            "tvg-logo": "http://tvassets.roarzone.info/images/76.png",
-            "channel-name": "76",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/77",
-            "tvg-logo": "http://tvassets.roarzone.info/images/77.png",
-            "channel-name": "77",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/79",
-            "tvg-logo": "http://tvassets.roarzone.info/images/79.png",
-            "channel-name": "79",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/84",
-            "tvg-logo": "http://tvassets.roarzone.info/images/84.png",
-            "channel-name": "84",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/85",
-            "tvg-logo": "http://tvassets.roarzone.info/images/85.png",
-            "channel-name": "85",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/86",
-            "tvg-logo": "http://tvassets.roarzone.info/images/86.png",
-            "channel-name": "86",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/88",
-            "tvg-logo": "http://tvassets.roarzone.info/images/88.png",
-            "channel-name": "88",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/89",
-            "tvg-logo": "http://tvassets.roarzone.info/images/89.png",
-            "channel-name": "89",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/100",
-            "tvg-logo": "http://tvassets.roarzone.info/images/100.png",
-            "channel-name": "100",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=bk/102",
-            "tvg-logo": "http://tvassets.roarzone.info/images/102.png",
-            "channel-name": "102",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=ext/bijoy-tv",
-            "tvg-logo": "http://tvassets.roarzone.info/images/bijoy-tv.jpg",
-            "channel-name": "Bijoy Tv",
-            "group-title": "BDIX"
-        },
-        {
-            "URL": "http://10.99.99.99/player.php?stream=ext/ekhon-tv",
-            "tvg-logo": "http://tvassets.roarzone.info/images/ekhon-tv.jpg",
-            "channel-name": "Ekhon Tv",
-            "group-title": "BDIX"
-        }
-    ]
-    '''
-    # Load the JSON input
-    json_data = json.loads(json_input)
-
-    # Generate M3U content
-    m3u_content = generate_m3u_content(json_data)
-
-    # Save the M3U content to a file
-    save_m3u_file(m3u_content)
+    import sys
+    if sys.version_info < (3, 6):
+        print("Python 3.6+ required.")
+        sys.exit(1)
+    main()
